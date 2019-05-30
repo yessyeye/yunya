@@ -844,4 +844,76 @@
             </data>
         </dataList>
     </case>
+    <case class="com.xuehai.response.testCase.Teacher.PatchShieldsCancel" name="批量取消禁言">
+        <request>
+            <header>
+                <content-type>application/json</content-type>
+                <Authorization>?</Authorization>
+            </header>
+            <url>/api/v1/users/152424/shields/cancel</url>
+            <method>patch</method>
+            <!--
+                urlParam主要用于url中包含动态参数的，如v1/{user}/login，urlParam设置如user=32732（<K,V>,参数名称一致）
+             -->
+            <urlParam></urlParam>
+            <queryString></queryString>
+
+            <sign></sign>
+        </request>
+        <dataList>
+            <data id="case1" description="正常数据">
+
+                <!-- queryString是指url '?' 后面拼接的查询字段 -->
+                <queryString>
+                    <![CDATA[
+
+				    ]]>
+                </queryString>
+                <body>
+                    <![CDATA[
+                {"peerIds":[152417,152418,152580,152581,152422,152575,152576,152421,152579,152415,152412,152582,152420,152578,152416,152419,152577,152414,152574,152573]}
+                    ]]>
+                </body>
+                <assertion>
+                    {"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}
+                </assertion>
+            </data>
+        </dataList>
+    </case>
+    <case class="com.xuehai.response.testCase.Teacher.PatchShieldNotesCancel" name="匹配取消便签屏蔽名单">
+        <request>
+            <header>
+                <content-type>application/json</content-type>
+                <Authorization>?</Authorization>
+            </header>
+            <url>/api/v1/users/152424/shieldNotes/cancel</url>
+            <method>patch</method>
+            <!--
+                urlParam主要用于url中包含动态参数的，如v1/{user}/login，urlParam设置如user=32732（<K,V>,参数名称一致）
+             -->
+            <urlParam></urlParam>
+            <queryString></queryString>
+
+            <sign></sign>
+        </request>
+        <dataList>
+            <data id="case1" description="正常数据">
+
+                <!-- queryString是指url '?' 后面拼接的查询字段 -->
+                <queryString>
+                    <![CDATA[
+
+				    ]]>
+                </queryString>
+                <body>
+                    <![CDATA[
+                {"peerIds":[152412,152414,152415,152416,152417,152418,152419,152420,152421,152422,152573,152574,152575,152576,152577,152578,152579,152580,152581,152582]}
+                    ]]>
+                </body>
+                <assertion>
+                    {"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}
+                </assertion>
+            </data>
+        </dataList>
+    </case>
 </xml>

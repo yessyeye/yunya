@@ -45,7 +45,8 @@
             <class name="com.xuehai.response.testCase.Teacher.DeleteShieldNotes"/>
             <class name="com.xuehai.response.testCase.Teacher.PostUsersShields"/>
             <class name="com.xuehai.response.testCase.Teacher.DeleteUsersShields"/>
-
+            <class name="com.xuehai.response.testCase.Teacher.PatchShieldsCancel"/>
+            <class name="com.xuehai.response.testCase.Teacher.PatchShieldNotesCancel"/>
         </classes>
     </test>
 </suite>
