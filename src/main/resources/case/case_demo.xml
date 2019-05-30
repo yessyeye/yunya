@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<domain>http://127.0.0.1:4723</domain>
+	<case class="com.xuehai.testcase.test.DemoOne" name="测试DEMO">
+		<request>
+			<header>
+				<content-type>application/json</content-type>
+			</header>
+			<url>/wd/hub/status</url>
+			<method>GET</method>
+			<!-- 
+				urlParam主要用于url中包含动态参数的，如v1/{user}/login，urlParam设置如user=32732（<K,V>,参数名称一致）
+			 -->
+			<urlParam></urlParam>
+			<authToken></authToken>
+			<sign></sign>
+		</request>
+		<dataList>
+			<data id="" description="正常数据">
+			    <!-- 
+			     	mock主要用于构造响应数据                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+			     	path：url地址
+			     	method：请求方法
+			     	parameters：地址栏参数
+			     	requestBody：请求体
+			     	responseCode：响应代码
+			     	responseData：响应数据
+			     -->
+			    <mock isMock="false">
+			        <path>/wd/hub/{state}</path>
+			        <method>GET</method>
+			        <parameters>
+			            <state>1</state>
+			        </parameters>
+			        <requestBody></requestBody>
+			        <responseCode>200</responseCode>
+			        <responseData>{"sessionId":"123456"}</responseData>
+			    </mock>
+			    <!-- queryString是指url '?' 后面拼接的查询字段 -->
+				<queryString>
+				    <![CDATA[
+				    		
+				    ]]>
+				</queryString>
+				<body>
+				    <![CDATA[
+				    	
+				    ]]>
+				</body>
+				<!-- 
+					{
+						"invokeType":0调用getExpectResult(),1调用execAssertion()
+						//静态或动态期望结果结构体格式:{"responseCode":200,"responseInfo":{}}
+						"expectResult":静态期望结果,实际断言过程中优先取静态期望结果,静态期望结果null或空,则取AssertHandler
+						"action":testcase中HashMap<String, AssertHandler>的key值
+						"assertType":0全量断言,1部分字段断言,
+						"assertKey":["sessionId"] 需要断言的字段名称,与json串字段名对应
+					}
+				 -->
+				<assertion>
+				    <![CDATA[
+				    	{"invokeType":0,"expectResult":"","action":"first","assertType":0,"assertKey":["sessionId"]}
+				    ]]>
+				</assertion>
+			</data>
+			
+			<data id="" description="异常数据">
+			    <!-- 
+			     	mock主要用于构造响应数据                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+			     	path：url地址
+			     	method：请求方法
+			     	parameters：地址栏参数
+			     	requestBody：请求体
+			     	responseCode：响应代码
+			     	responseData：响应数据
+			     -->
+			    <mock isMock="false">
+			        <path>/wd/hub/{state}</path>
+			        <method>GET</method>
+			        <parameters>
+			            <state>1</state>
+			        </parameters>
+			        <requestBody></requestBody>
+			        <responseCode>200</responseCode>
+			        <responseData>{"sessionId":"123456"}</responseData>
+			    </mock>
+			    <!-- queryString是指url '?' 后面拼接的查询字段 -->
+				<queryString>
+				    <![CDATA[
+				    		
+				    ]]>
+				</queryString>
+				<body>
+				    <![CDATA[
+				    	
+				    ]]>
+				</body>
+				<!-- 
+					{
+						"invokeType":0调用getExpectResult(),1调用execAssertion()
+						//静态或动态期望结果结构体格式:{"responseCode":200,"responseInfo":{}}
+						"expectResult":静态期望结果,实际断言过程中优先取静态期望结果,静态期望结果null或空,则取AssertHandler
+						"action":testcase中HashMap<String, AssertHandler>的key值
+						"assertType":0全量断言,1部分字段断言,
+						"assertKey":["sessionId"] 需要断言的字段名称,与json串字段名对应
+					}
+				 -->
+				<assertion>
+				    <![CDATA[
+				    	{"invokeType":0,"expectResult":"","action":"first","assertType":0,"assertKey":["sessionId"]}
+				    ]]>
+				</assertion>
+			</data>
+		</dataList>
+	</case>
+
+</xml>

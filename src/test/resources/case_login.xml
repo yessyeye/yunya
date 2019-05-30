@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <domain>http://192.168.10.16:8083</domain>
+    <case class="com.xuehai.response.testCase.Teacher.PostPlatformTeacherLogin" name="平台用户登陆（老师）">
+        <request>
+            <header>
+                <content-type>application/json</content-type>
+                <User-Agent>com.xuehai.response_launcher_teacher/test_v3.19.2.3.20190108T (SM-P350; android; 6.0.1;
+                    R22J800VD8K)
+                </User-Agent>
+            </header>
+            <url>/api/v1/platform/login</url>
+            <method>post</method>
+            <!--
+                urlParam主要用于url中包含动态参数的，如v1/{user}/login，urlParam设置如user=32732（<K,V>,参数名称一致）
+             -->
+            <urlParam></urlParam>
+            <queryString></queryString>
+
+            <sign></sign>
+        </request>
+        <dataList>
+            <data id="Data" description="正常数据">
+
+                <!-- queryString是指url '?' 后面拼接的查询字段 -->
+                <queryString>
+                    <![CDATA[
+  
+				    ]]>
+                </queryString>
+                <body>
+                    <![CDATA[
+                    {"ap": "wifi ","deviceId": "R22J800VD8K","imei": "","mac": "B4:BF:F6:2A:4F:7D","operatorId": 151260,"osDisplay": "MMB29M.P350ZCU1BRF1","password": "E10ADC3949BA59ABBE56E057F20F883E","userName": "ptls3"
+}
+				    ]]>
+                </body>
+                <!--
+                    {
+                        "invokeType":0调用getExpectResult(),1调用execAssertion()
+                        //静态或动态期望结果结构体格式:{"responseCode":200,"responseInfo":{}}
+                        "expectResult":静态期望结果,实际断言过程中优先取静态期望结果,静态期望结果null或空,则取AssertHandler
+                        "action":testcase中HashMap<String, AssertHandler>的key值
+                        "assertType":0全量断言,1部分字段断言,
+                        "assertKey":["sessionId"] 需要断言的字段名称,与json串字段名对应
+                    }
+                 -->
+                <assertion>
+                    {"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}
+                </assertion>
+            </data>
+        </dataList>
+    </case>
+    <case class="com.xuehai.yunzuoye.testCase.Student.PostPlatformStudentLogin" name="平台用户登陆（学生）">
+        <request>
+            <header>
+                <content-type>application/json</content-type>
+                <User-Agent>com.xuehai.launcher/test_v3.21.2.5.20190222S (SM-P355C; android; 5.0.2; R22H600WG6Y)
+                </User-Agent>
+            </header>
+            <url>/api/v1/platform/login</url>
+            <method>post</method>
+            <!--
+                urlParam主要用于url中包含动态参数的，如v1/{user}/login，urlParam设置如user=32732（<K,V>,参数名称一致）
+             -->
+            <urlParam></urlParam>
+            <queryString></queryString>
+
+            <sign></sign>
+        </request>
+        <dataList>
+            <data id="Data" description="正常数据">
+
+                <!-- queryString是指url '?' 后面拼接的查询字段 -->
+                <queryString>
+                    <![CDATA[
+
+				    ]]>
+                </queryString>
+                <body>
+                    <![CDATA[
+                    {"userName":"ptcs2","password":"E10ADC3949BA59ABBE56E057F20F883E","deviceId":"R22H600WG6Y","osDisplay":"LRX22G.P355CZCU1AOG1.ZHITONGYUN_V1.0","imei":"359675060144777","ap":"wifi","mac":"50:9E:A7:45:8C:9D","isNew":true
+}
+				    ]]>
+                </body>
+                <!--
+                    {
+                        "invokeType":0调用getExpectResult(),1调用execAssertion()
+                        //静态或动态期望结果结构体格式:{"responseCode":200,"responseInfo":{}}
+                        "expectResult":静态期望结果,实际断言过程中优先取静态期望结果,静态期望结果null或空,则取AssertHandler
+                        "action":testcase中HashMap<String, AssertHandler>的key值
+                        "assertType":0全量断言,1部分字段断言,
+                        "assertKey":["sessionId"] 需要断言的字段名称,与json串字段名对应
+                    }
+                 -->
+                <assertion>
+                    {"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}
+                </assertion>
+            </data>
+        </dataList>
+    </case>
+</xml>

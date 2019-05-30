@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="Report" allow-return-values="true">
+    <parameter name="testCasePath" value="src/test/resources/case_login.xml"/>
+    <parameter name="testCasePath1" value="src/test/resources/case.xml"/>
+
+    <listeners>
+        <!--
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+
+        <listener class-name="org.testng.reporters.FailedReporter"/>
+        <listener class-name="org.testng.reporters.XMLReporter"/>
+        <listener class-name="xuehai.api.report.ExtentReportsListener"/>
+        -->
+    </listeners>
+
+
+    <test name="TestCaseTest" preserve-order="true">
+        <classes>
+            <class name="com.xuehai.yunzuoye.testCase.Student.PostPlatformStudentLogin"/>
+            <class name="com.xuehai.yunzuoye.testCase.Student.PutStudentWorks"/>
+            <class name="com.xuehai.yunzuoye.testCase.Student.GetStudentWorks"/>
+            <!--<class name="com.xuehai.yunzuoye.testCase.Student.PutEnend"/>-->
+            <class name="com.xuehai.yunzuoye.testCase.Student.DeleteStudentWorks"/>
+            <class name="com.xuehai.yunzuoye.testCase.Student.GetStudentWorksZL"/>
+            <class name="com.xuehai.yunzuoye.testCase.Student.GetStudentWordsHome"/>
+            <class name="com.xuehai.yunzuoye.testCase.Student.GetStudentWorksES"/>
+            <class name="com.xuehai.yunzuoye.testCase.Student.GetStudentSearch"/>
+            <class name="com.xuehai.yunzuoye.testCase.Student.GetStudentWorksWrongTopic"/>
+            <class name="com.xuehai.yunzuoye.testCase.Student.GetBookShelfRecycle"/>
+            <class name="com.xuehai.yunzuoye.testCase.Student.PostInnerApiBookShelfAll"/>
+            <class name="com.xuehai.yunzuoye.testCase.Student.GetBookMallCategoriesMatch"/>
+            <class name="com.xuehai.yunzuoye.testCase.Student.PostBookShelfAll"/>
+            <class name="com.xuehai.yunzuoye.testCase.Student.PutBookShelfBooks"/>
+            <class name="com.xuehai.yunzuoye.testCase.Student.PutStudentWorksLectureTimes"/>
+            <class name="com.xuehai.yunzuoye.testCase.Student.GetUsersTeachers"/>
+        </classes>
+    </test>
+</suite>
