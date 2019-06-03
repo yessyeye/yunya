@@ -1,19 +1,15 @@
 package com.xuehai.response.Assertion;
 
-import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.google.gson.JsonArray;
 import com.xuehai.base.AssertHandler;
 
 import static org.testng.AssertJUnit.assertEquals;
 
 /**
  * @Author slyart
- * @create 2019/5/28 4:28 PM
+ * @create 2019/6/3 5:12 PM
  */
-public class PostFriendsRequestsAssertion extends AssertHandler {
-    public static String Id;
-
+public class PutAgreeAssertion extends AssertHandler {
     @Override
     public String getExpectResult() {
         return null;
@@ -24,9 +20,5 @@ public class PostFriendsRequestsAssertion extends AssertHandler {
         JSONObject assertJson = JSONObject.parseObject(responseJson);
         int code = assertJson.getIntValue("responseCode");
         assertEquals(code, 200);
-        JSONArray responseInfo = assertJson.getJSONArray("responseInfo");
-        JSONObject response = (JSONObject) responseInfo.get(0);
-        String id = response.getString("id");
-        PostFriendsRequestsAssertion.Id = id;
     }
 }

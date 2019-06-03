@@ -4,7 +4,8 @@ import com.xuehai.base.AssertHandler;
 import com.xuehai.base.BaseTest;
 import com.xuehai.base.Log;
 import com.xuehai.model.Entity;
-import com.xuehai.response.Assertion.PatchSessionsTopAssertion;
+import com.xuehai.response.Assertion.PostFriendsRequestsAssertion;
+import com.xuehai.response.Assertion.PutAgreeAssertion;
 import com.xuehai.util.OperateEntity;
 import org.testng.ITestContext;
 import org.testng.annotations.*;
@@ -21,7 +22,7 @@ public class PutAgree extends BaseTest {
     private static HashMap<String, AssertHandler> assertMap = new HashMap<String, AssertHandler>();
 
     static {
-        assertMap.put("first", new PatchSessionsTopAssertion());
+        assertMap.put("first", new PutAgreeAssertion());
     }
 
     @BeforeSuite
@@ -37,8 +38,10 @@ public class PutAgree extends BaseTest {
 
     @Test(dataProvider = "data", description = "通过加好友请求")
     public void action(Entity entity) {
+        String entity1 = entity.getUrl().replace("*", PostFriendsRequestsAssertion.Id);
+        entity.setUrl(entity1);
         //获取加签名后的entity中最新queryString
-        OperateEntity.getEntityValue(entity);
+        OperateEntity.getEntityValueTeacher(entity);
         super.execute(entity, assertMap);
 
     }

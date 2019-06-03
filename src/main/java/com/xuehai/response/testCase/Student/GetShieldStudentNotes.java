@@ -4,7 +4,7 @@ import com.xuehai.base.AssertHandler;
 import com.xuehai.base.BaseTest;
 import com.xuehai.base.Log;
 import com.xuehai.model.Entity;
-import com.xuehai.response.Assertion.PatchMessagesReadAckAssertion;
+import com.xuehai.response.Assertion.GetShieldStudentNotesAssertion;
 import com.xuehai.util.OperateEntity;
 import org.testng.ITestContext;
 import org.testng.annotations.*;
@@ -21,7 +21,7 @@ public class GetShieldStudentNotes extends BaseTest {
     private static HashMap<String, AssertHandler> assertMap = new HashMap<String, AssertHandler>();
 
     static {
-        assertMap.put("first", new PatchMessagesReadAckAssertion());
+        assertMap.put("first", new GetShieldStudentNotesAssertion());
     }
 
     @BeforeSuite
@@ -35,10 +35,10 @@ public class GetShieldStudentNotes extends BaseTest {
         super.setUpBeforeClass(testCasePath);
     }
 
-    @Test(dataProvider = "data", description = "确认已读消息")
+    @Test(dataProvider = "data", description = "学生获取屏蔽他老师列表")
     public void action(Entity entity) {
         //获取加签名后的entity中最新queryString
-        OperateEntity.getEntityValue(entity);
+        OperateEntity.getEntityValueStudent(entity);
         super.execute(entity, assertMap);
 
     }

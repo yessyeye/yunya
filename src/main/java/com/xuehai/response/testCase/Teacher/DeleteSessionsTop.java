@@ -38,7 +38,7 @@ public class DeleteSessionsTop extends BaseTest {
     @Test(dataProvider = "data", description = "取消置顶会话")
     public void action(Entity entity) {
         //获取加签名后的entity中最新queryString
-        OperateEntity.getEntityValue(entity);
+        OperateEntity.getEntityValueTeacher(entity);
         super.execute(entity, assertMap);
 
     }

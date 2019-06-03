@@ -4,7 +4,8 @@ import com.xuehai.base.AssertHandler;
 import com.xuehai.base.BaseTest;
 import com.xuehai.base.Log;
 import com.xuehai.model.Entity;
-import com.xuehai.response.Assertion.GetShieldNotesAssertion;
+import com.xuehai.response.Assertion.PostFriendsRequestsAssertion;
+import com.xuehai.response.Assertion.PutFriendsIgnoreAssertion;
 import com.xuehai.util.OperateEntity;
 import org.testng.ITestContext;
 import org.testng.annotations.*;
@@ -14,14 +15,14 @@ import java.util.Iterator;
 
 /**
  * @Author slyart
- * @create 2019/5/22 4:10 PM
+ * @create 2019/6/3 3:37 PM
  */
-public class GetShieldNotes extends BaseTest {
-    Log logger = new Log(GetShieldNotes.class);
+public class PutFriendsIgnore extends BaseTest {
+    Log logger = new Log(PutFriendsIgnore.class);
     private static HashMap<String, AssertHandler> assertMap = new HashMap<String, AssertHandler>();
 
     static {
-        assertMap.put("first", new GetShieldNotesAssertion());
+        assertMap.put("first", new PutFriendsIgnoreAssertion());
     }
 
     @BeforeSuite
@@ -35,8 +36,10 @@ public class GetShieldNotes extends BaseTest {
         super.setUpBeforeClass(testCasePath);
     }
 
-    @Test(dataProvider = "data", description = "增量获取屏蔽名单的变更")
+    @Test(dataProvider = "data", description = "忽略关联请求")
     public void action(Entity entity) {
+        String entity1 = entity.getUrl().replace("*", PostFriendsRequestsAssertion.Id);
+        entity.setUrl(entity1);
         //获取加签名后的entity中最新queryString
         OperateEntity.getEntityValueTeacher(entity);
         super.execute(entity, assertMap);

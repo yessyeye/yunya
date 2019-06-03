@@ -4,7 +4,7 @@ import com.xuehai.base.AssertHandler;
 import com.xuehai.base.BaseTest;
 import com.xuehai.base.Log;
 import com.xuehai.model.Entity;
-import com.xuehai.response.Assertion.PostFriendsRequestsAssertion;
+import com.xuehai.response.Assertion.DeleteFriendsAssertion;
 import com.xuehai.util.OperateEntity;
 import org.testng.ITestContext;
 import org.testng.annotations.*;
@@ -14,14 +14,14 @@ import java.util.Iterator;
 
 /**
  * @Author slyart
- * @create 2019/5/28 4:23 PM
+ * @create 2019/6/3 2:15 PM
  */
-public class PostFriendsRequests extends BaseTest {
-    Log logger = new Log(PostFriendsRequests.class);
+public class DeleteFriends extends BaseTest {
+    Log logger = new Log(DeleteFriends.class);
     private static HashMap<String, AssertHandler> assertMap = new HashMap<String, AssertHandler>();
 
     static {
-        assertMap.put("first", new PostFriendsRequestsAssertion());
+        assertMap.put("first", new DeleteFriendsAssertion());
     }
 
     @BeforeSuite
@@ -35,10 +35,11 @@ public class PostFriendsRequests extends BaseTest {
         super.setUpBeforeClass(testCasePath);
     }
 
-    @Test(dataProvider = "data", description = "添加好友")
+    @Test(dataProvider = "data", description = "删除好友")
     public void action(Entity entity) {
+
         //获取加签名后的entity中最新queryString
-        OperateEntity.getEntityValue(entity);
+        OperateEntity.getEntityValueTeacher(entity);
         super.execute(entity, assertMap);
 
     }

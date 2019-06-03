@@ -529,13 +529,13 @@
             </data>
         </dataList>
     </case>
-    <case class="com.xuehai.response.testCase.Teacher.PostFriendsRequests" name="添加好友">
+    <case class="com.xuehai.response.testCase.Student.PostFriendsRequests" name="添加好友">
         <request>
             <header>
                 <content-type>application/json</content-type>
                 <Authorization>?</Authorization>
             </header>
-            <url>/api/v1/users/152424/friends/requests/</url>
+            <url>/api/v1/users/152414/friends/requests/</url>
             <method>post</method>
             <!--
                 urlParam主要用于url中包含动态参数的，如v1/{user}/login，urlParam设置如user=32732（<K,V>,参数名称一致）
@@ -556,7 +556,77 @@
                 </queryString>
                 <body>
                     <![CDATA[
-                    {"friendIds": [152569]}
+                {"friendIds":[152424]}
+                    ]]>
+                </body>
+                <assertion>
+                    {"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}
+                </assertion>
+            </data>
+        </dataList>
+    </case>
+    <case class="com.xuehai.response.testCase.Student.GetFriendsJudge" name="是否好友">
+        <request>
+            <header>
+                <content-type>application/json</content-type>
+                <Authorization>?</Authorization>
+            </header>
+            <url>/api/v1/users/152414/friends/152424/judge</url>
+            <method>get</method>
+            <!--
+                urlParam主要用于url中包含动态参数的，如v1/{user}/login，urlParam设置如user=32732（<K,V>,参数名称一致）
+             -->
+            <urlParam></urlParam>
+            <queryString></queryString>
+
+            <sign></sign>
+        </request>
+        <dataList>
+            <data id="case1" description="正常数据">
+
+                <!-- queryString是指url '?' 后面拼接的查询字段 -->
+                <queryString>
+                    <![CDATA[
+
+				    ]]>
+                </queryString>
+                <body>
+                    <![CDATA[
+                    ]]>
+                </body>
+                <assertion>
+                    {"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}
+                </assertion>
+            </data>
+        </dataList>
+    </case>
+    <case class="com.xuehai.response.testCase.Teacher.PutFriendsIgnore" name="忽略关联请求">
+        <request>
+            <header>
+                <content-type>application/json</content-type>
+                <Authorization>?</Authorization>
+            </header>
+            <url>/api/v1/users/152424/friends/requests/*/ignore</url>
+            <method>put</method>
+            <!--
+                urlParam主要用于url中包含动态参数的，如v1/{user}/login，urlParam设置如user=32732（<K,V>,参数名称一致）
+             -->
+            <urlParam></urlParam>
+            <queryString></queryString>
+
+            <sign></sign>
+        </request>
+        <dataList>
+            <data id="case1" description="正常数据">
+
+                <!-- queryString是指url '?' 后面拼接的查询字段 -->
+                <queryString>
+                    <![CDATA[
+
+				    ]]>
+                </queryString>
+                <body>
+                    <![CDATA[
                     ]]>
                 </body>
                 <assertion>
@@ -571,7 +641,7 @@
                 <content-type>application/json</content-type>
                 <Authorization>?</Authorization>
             </header>
-            <url>/v1/users/152424/friends/requests/2802/agree</url>
+            <url>/api/v1/users/152424/friends/requests/*/agree</url>
             <method>put</method>
             <urlParam></urlParam>
             <queryString></queryString>
@@ -589,7 +659,38 @@
                 </queryString>
                 <body>
                     <![CDATA[
-                    {"friendIds": [152569]}
+                    ]]>
+                </body>
+                <assertion>
+                    {"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}
+                </assertion>
+            </data>
+        </dataList>
+    </case>
+    <case class="com.xuehai.response.testCase.Teacher.DeleteFriends" name="删除好友">
+        <request>
+            <header>
+                <content-type>application/json</content-type>
+                <Authorization>?</Authorization>
+            </header>
+            <url>/api/v1/users/152424/friends/152414</url>
+            <method>delete</method>
+            <urlParam></urlParam>
+            <queryString></queryString>
+
+            <sign></sign>
+        </request>
+        <dataList>
+            <data id="case1" description="正常数据">
+
+                <!-- queryString是指url '?' 后面拼接的查询字段 -->
+                <queryString>
+                    <![CDATA[
+
+				    ]]>
+                </queryString>
+                <body>
+                    <![CDATA[
                     ]]>
                 </body>
                 <assertion>
@@ -908,6 +1009,41 @@
                 <body>
                     <![CDATA[
                 {"peerIds":[152412,152414,152415,152416,152417,152418,152419,152420,152421,152422,152573,152574,152575,152576,152577,152578,152579,152580,152581,152582]}
+                    ]]>
+                </body>
+                <assertion>
+                    {"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}
+                </assertion>
+            </data>
+        </dataList>
+    </case>
+    <case class="com.xuehai.response.testCase.Student.GetShieldStudentNotes" name="学生获取屏蔽他老师列表">
+        <request>
+            <header>
+                <content-type>application/json</content-type>
+                <Authorization>?</Authorization>
+            </header>
+            <url>/api/v1/users/152414/shieldStudentNotes/</url>
+            <method>get</method>
+            <!--
+                urlParam主要用于url中包含动态参数的，如v1/{user}/login，urlParam设置如user=32732（<K,V>,参数名称一致）
+             -->
+            <urlParam></urlParam>
+            <queryString></queryString>
+
+            <sign></sign>
+        </request>
+        <dataList>
+            <data id="case1" description="正常数据">
+
+                <!-- queryString是指url '?' 后面拼接的查询字段 -->
+                <queryString>
+                    <![CDATA[
+                version=0
+				    ]]>
+                </queryString>
+                <body>
+                    <![CDATA[
                     ]]>
                 </body>
                 <assertion>

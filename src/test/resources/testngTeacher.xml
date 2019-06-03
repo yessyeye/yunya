@@ -18,7 +18,16 @@
 
     <test name="TestCaseTest" preserve-order="true">
         <classes>
+
+            <class name="com.xuehai.response.testCase.Student.PostPlatformStudentLogin"/>
+            <class name="com.xuehai.response.testCase.Student.PostFriendsRequests"/>
+            <class name="com.xuehai.response.testCase.Student.GetFriendsJudge"/>
+            <class name="com.xuehai.response.testCase.Student.GetShieldStudentNotes"/>
+
             <class name="com.xuehai.response.testCase.Teacher.PostPlatformTeacherLogin"/>
+            <!--<class name="com.xuehai.response.testCase.Teacher.PutFriendsIgnore"/>-->
+            <class name="com.xuehai.response.testCase.Teacher.PutAgree"/>
+            <class name="com.xuehai.response.testCase.Teacher.DeleteFriends"/>
             <class name="com.xuehai.response.testCase.Teacher.PostGroupsbatch"/>
             <class name="com.xuehai.response.testCase.Teacher.GetUsersShields"/>
             <class name="com.xuehai.response.testCase.Teacher.GetShieldNotes"/>
@@ -33,11 +42,6 @@
             <class name="com.xuehai.response.testCase.Teacher.PatchMessagesRevoke"/>
             <class name="com.xuehai.response.testCase.Teacher.PatchSessionsTop"/>
             <class name="com.xuehai.response.testCase.Teacher.DeleteSessionsTop"/>
-
-
-            <!--<class name="com.xuehai.response.testCase.Teacher.PostFriendsRequests"/>-->
-            <!--<class name="com.xuehai.response.testCase.Teacher.PutAgree"/>-->
-
             <class name="com.xuehai.response.testCase.Teacher.PostGroups"/>
             <!--<class name="com.xuehai.response.testCase.Teacher.PatchUsersGroups"/>-->
             <class name="com.xuehai.response.testCase.Teacher.DeleteUsersGroups"/>
@@ -47,6 +51,7 @@
             <class name="com.xuehai.response.testCase.Teacher.DeleteUsersShields"/>
             <class name="com.xuehai.response.testCase.Teacher.PatchShieldsCancel"/>
             <class name="com.xuehai.response.testCase.Teacher.PatchShieldNotesCancel"/>
+
         </classes>
     </test>
 </suite>

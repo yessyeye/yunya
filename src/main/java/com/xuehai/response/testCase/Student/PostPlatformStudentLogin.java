@@ -1,10 +1,10 @@
-package com.xuehai.response.testCase.Teacher;
+package com.xuehai.response.testCase.Student;
 
 import com.xuehai.base.AssertHandler;
 import com.xuehai.base.BaseTest;
 import com.xuehai.base.Log;
 import com.xuehai.model.Entity;
-import com.xuehai.response.Assertion.GetShieldNotesAssertion;
+import com.xuehai.response.Assertion.PostPlatformLoginAssertion;
 import com.xuehai.util.OperateEntity;
 import org.testng.ITestContext;
 import org.testng.annotations.*;
@@ -12,16 +12,11 @@ import org.testng.annotations.*;
 import java.util.HashMap;
 import java.util.Iterator;
 
-/**
- * @Author slyart
- * @create 2019/5/22 4:10 PM
- */
-public class GetShieldNotes extends BaseTest {
-    Log logger = new Log(GetShieldNotes.class);
+public class PostPlatformStudentLogin extends BaseTest {
+    Log logger=new Log(PostPlatformStudentLogin.class);
     private static HashMap<String, AssertHandler> assertMap = new HashMap<String, AssertHandler>();
-
     static {
-        assertMap.put("first", new GetShieldNotesAssertion());
+        assertMap.put("first", new PostPlatformLoginAssertion());
     }
 
     @BeforeSuite
@@ -30,16 +25,17 @@ public class GetShieldNotes extends BaseTest {
     }
 
     @BeforeClass
-    @Parameters({"testCasePath1"})
-    public void beforeClass(@Optional("src/test/resources/case.xml") String testCasePath) {
+    @Parameters({"testCasePath"})
+    public void beforeClass(@Optional("src/test/resources/case_login.xml") String testCasePath) {
         super.setUpBeforeClass(testCasePath);
     }
 
-    @Test(dataProvider = "data", description = "增量获取屏蔽名单的变更")
+    @Test(dataProvider = "data", description = "平台用户登录(学生)")
     public void action(Entity entity) {
-        //获取加签名后的entity中最新queryString
-        OperateEntity.getEntityValueTeacher(entity);
         super.execute(entity, assertMap);
+        //获取登陆后的authToken值，并传到基础类中
+        String AuthtokenValueNew = super.execute2(entity);
+        OperateEntity.getAuthTokenStudent(AuthtokenValueNew);
 
     }
 
@@ -47,4 +43,5 @@ public class GetShieldNotes extends BaseTest {
     public Iterator<Object[]> initData() {
         return super.getDataIterator();
     }
+
 }

@@ -41,7 +41,7 @@ public class PatchMessagesRevoke extends BaseTest {
         String entity1 = entity.getUrl().replace("*", PostMessagesAssertion.msgId);
         entity.setUrl(entity1);
         //获取加签名后的entity中最新queryString
-        OperateEntity.getEntityValue(entity);
+        OperateEntity.getEntityValueTeacher(entity);
         super.execute(entity, assertMap);
 
     }

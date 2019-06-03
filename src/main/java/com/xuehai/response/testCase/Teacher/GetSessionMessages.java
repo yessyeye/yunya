@@ -38,7 +38,7 @@ public class GetSessionMessages extends BaseTest {
     @Test(dataProvider = "data", description = "获取会话历史消息列表")
     public void action(Entity entity) {
         //获取加签名后的entity中最新queryString
-        OperateEntity.getEntityValue(entity);
+        OperateEntity.getEntityValueTeacher(entity);
         super.execute(entity, assertMap);
 
     }

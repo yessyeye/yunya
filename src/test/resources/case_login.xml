@@ -50,7 +50,7 @@
             </data>
         </dataList>
     </case>
-    <case class="com.xuehai.yunzuoye.testCase.Student.PostPlatformStudentLogin" name="平台用户登陆（学生）">
+    <case class="com.xuehai.response.testCase.Student.PostPlatformStudentLogin" name="平台用户登陆（学生）">
         <request>
             <header>
                 <content-type>application/json</content-type>

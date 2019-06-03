@@ -38,7 +38,7 @@ public class PostUsersShields extends BaseTest {
     @Test(dataProvider = "data", description = "屏蔽对方")
     public void action(Entity entity) {
         //获取加签名后的entity中最新queryString
-        OperateEntity.getEntityValue(entity);
+        OperateEntity.getEntityValueTeacher(entity);
         super.execute(entity, assertMap);
 
     }

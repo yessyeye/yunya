@@ -37,7 +37,7 @@ public class PostPlatformTeacherLogin extends BaseTest {
         super.execute(entity, assertMap);
         //获取登陆后的authToken值，并传到基础类中
         String AuthtokenValueNew = super.execute2(entity);
-        OperateEntity.getAuthToken(AuthtokenValueNew);
+        OperateEntity.getAuthTokenTeacher(AuthtokenValueNew);
 
     }
 

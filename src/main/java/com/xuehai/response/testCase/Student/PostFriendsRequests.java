@@ -1,10 +1,10 @@
-package com.xuehai.response.testCase.Teacher;
+package com.xuehai.response.testCase.Student;
 
 import com.xuehai.base.AssertHandler;
 import com.xuehai.base.BaseTest;
 import com.xuehai.base.Log;
 import com.xuehai.model.Entity;
-import com.xuehai.response.Assertion.GetShieldNotesAssertion;
+import com.xuehai.response.Assertion.PostFriendsRequestsAssertion;
 import com.xuehai.util.OperateEntity;
 import org.testng.ITestContext;
 import org.testng.annotations.*;
@@ -14,14 +14,14 @@ import java.util.Iterator;
 
 /**
  * @Author slyart
- * @create 2019/5/22 4:10 PM
+ * @create 2019/5/28 4:23 PM
  */
-public class GetShieldNotes extends BaseTest {
-    Log logger = new Log(GetShieldNotes.class);
+public class PostFriendsRequests extends BaseTest {
+    Log logger = new Log(PostFriendsRequests.class);
     private static HashMap<String, AssertHandler> assertMap = new HashMap<String, AssertHandler>();
 
     static {
-        assertMap.put("first", new GetShieldNotesAssertion());
+        assertMap.put("first", new PostFriendsRequestsAssertion());
     }
 
     @BeforeSuite
@@ -35,10 +35,10 @@ public class GetShieldNotes extends BaseTest {
         super.setUpBeforeClass(testCasePath);
     }
 
-    @Test(dataProvider = "data", description = "增量获取屏蔽名单的变更")
+    @Test(dataProvider = "data", description = "添加好友")
     public void action(Entity entity) {
         //获取加签名后的entity中最新queryString
-        OperateEntity.getEntityValueTeacher(entity);
+        OperateEntity.getEntityValueStudent(entity);
         super.execute(entity, assertMap);
 
     }

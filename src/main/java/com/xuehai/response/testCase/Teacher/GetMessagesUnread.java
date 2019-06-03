@@ -39,7 +39,7 @@ public class GetMessagesUnread extends BaseTest {
     @Test(dataProvider = "data", description = "获取未读消息")
     public void action(Entity entity) {
         //获取加签名后的entity中最新queryString
-        OperateEntity.getEntityValue(entity);
+        OperateEntity.getEntityValueTeacher(entity);
         super.execute(entity, assertMap);
 
     }

@@ -38,7 +38,7 @@ public class GetSessionRecent extends BaseTest {
     @Test(dataProvider = "data", description = "获取最近联系人会话列表")
     public void action(Entity entity) {
         //获取加签名后的entity中最新queryString
-        OperateEntity.getEntityValue(entity);
+        OperateEntity.getEntityValueTeacher(entity);
         super.execute(entity, assertMap);
 
     }
