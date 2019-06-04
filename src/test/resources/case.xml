@@ -699,7 +699,7 @@
             </data>
         </dataList>
     </case>
-    <case class="com.xuehai.response.testCase.Teacher.PostGroups" name="创建群聊组">
+    <case class="com.xuehai.response.testCase.Teacher.PostGroups" name="创建群聊">
         <request>
             <header>
                 <content-type>application/json</content-type>
@@ -738,7 +738,7 @@
                 <content-type>application/json</content-type>
                 <Authorization>?</Authorization>
             </header>
-            <url>/api/v1/users/152424/groups/31533</url>
+            <url>/api/v1/users/152424/groups/31566</url>
             <method>patch</method>
             <urlParam></urlParam>
             <queryString></queryString>
@@ -756,7 +756,7 @@
                 </queryString>
                 <body>
                     <![CDATA[
-                   {"joinedMembers": [27910],"name": "任我行、张三丰、欧阳锋、洪七公","removedMembers": []}
+                   {"joinedMembers":[],"name":"段誉、郭靖、令狐冲、黄蓉、华筝","removedMembers":[]}
                     ]]>
                 </body>
                 <assertion>
@@ -1024,6 +1024,41 @@
                 <Authorization>?</Authorization>
             </header>
             <url>/api/v1/users/152414/shieldStudentNotes/</url>
+            <method>get</method>
+            <!--
+                urlParam主要用于url中包含动态参数的，如v1/{user}/login，urlParam设置如user=32732（<K,V>,参数名称一致）
+             -->
+            <urlParam></urlParam>
+            <queryString></queryString>
+
+            <sign></sign>
+        </request>
+        <dataList>
+            <data id="case1" description="正常数据">
+
+                <!-- queryString是指url '?' 后面拼接的查询字段 -->
+                <queryString>
+                    <![CDATA[
+                version=0
+				    ]]>
+                </queryString>
+                <body>
+                    <![CDATA[
+                    ]]>
+                </body>
+                <assertion>
+                    {"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}
+                </assertion>
+            </data>
+        </dataList>
+    </case>
+    <case class="com.xuehai.response.testCase.Student.GetshieldStudents" name="学生获取屏蔽他的老师列表">
+        <request>
+            <header>
+                <content-type>application/json</content-type>
+                <Authorization>?</Authorization>
+            </header>
+            <url>/api/v1/users/152414/shieldStudents/</url>
             <method>get</method>
             <!--
                 urlParam主要用于url中包含动态参数的，如v1/{user}/login，urlParam设置如user=32732（<K,V>,参数名称一致）
