@@ -46,6 +46,11 @@ public class PutAgree extends BaseTest {
 
     }
 
+    @AfterClass
+    public void afterClass() {
+        super.tearDownAfterClass();
+    }
+
     @DataProvider(name = "data")
     public Iterator<Object[]> initData() {
         return super.getDataIterator();

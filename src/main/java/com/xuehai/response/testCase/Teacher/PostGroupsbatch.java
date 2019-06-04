@@ -19,6 +19,7 @@ import java.util.Iterator;
 public class PostGroupsbatch extends BaseTest {
     Log logger = new Log(PostGroupsbatch.class);
     private static HashMap<String, AssertHandler> assertMap = new HashMap<String, AssertHandler>();
+
     static {
         assertMap.put("first", new PostGroupsbatchAssertion());
     }
@@ -40,6 +41,11 @@ public class PostGroupsbatch extends BaseTest {
         OperateEntity.getEntityValueTeacher(entity);
         super.execute(entity, assertMap);
 
+    }
+
+    @AfterClass
+    public void afterClass() {
+        super.tearDownAfterClass();
     }
 
     @DataProvider(name = "data")

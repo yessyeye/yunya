@@ -13,8 +13,9 @@ import java.util.HashMap;
 import java.util.Iterator;
 
 public class PostPlatformTeacherLogin extends BaseTest {
-    Log logger=new Log(PostPlatformTeacherLogin.class);
+    Log logger = new Log(PostPlatformTeacherLogin.class);
     private static HashMap<String, AssertHandler> assertMap = new HashMap<String, AssertHandler>();
+
     static {
         assertMap.put("first", new PostPlatformLoginAssertion());
 
@@ -40,6 +41,12 @@ public class PostPlatformTeacherLogin extends BaseTest {
         OperateEntity.getAuthTokenTeacher(AuthtokenValueNew);
 
     }
+
+    @AfterClass
+    public void afterClass() {
+        super.tearDownAfterClass();
+    }
+
 
     @DataProvider(name = "data")
     public Iterator<Object[]> initData() {
