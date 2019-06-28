@@ -5,6 +5,8 @@ import com.xuehai.base.BaseTest;
 import com.xuehai.base.Log;
 import com.xuehai.model.Entity;
 import com.xuehai.response.Assertion.DeleteUsersGroupsAssertion;
+import com.xuehai.response.Assertion.PostGroupsAssertion;
+import com.xuehai.response.Assertion.PostMessagesAssertion;
 import com.xuehai.util.OperateEntity;
 import org.testng.ITestContext;
 import org.testng.annotations.*;
@@ -37,6 +39,8 @@ public class DeleteUsersGroups extends BaseTest {
 
     @Test(dataProvider = "data", description = "解散群聊")
     public void action(Entity entity) {
+        String entity1 = entity.getUrl().replace("*", PostGroupsAssertion.Id);
+        entity.setUrl(entity1);
         //获取加签名后的entity中最新queryString
         OperateEntity.getEntityValueTeacher(entity);
         super.execute(entity, assertMap);

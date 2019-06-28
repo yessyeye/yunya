@@ -765,13 +765,14 @@
             </data>
         </dataList>
     </case>
+
     <case class="com.xuehai.response.testCase.Teacher.DeleteUsersGroups" name="解散群聊">
         <request>
             <header>
                 <content-type>application/json</content-type>
                 <Authorization>?</Authorization>
             </header>
-            <url>/api/v1/users/152424/groups/31533</url>
+            <url>/api/v1/users/152424/groups/*</url>
             <method>Delete</method>
             <!--
                 urlParam主要用于url中包含动态参数的，如v1/{user}/login，urlParam设置如user=32732（<K,V>,参数名称一致）
