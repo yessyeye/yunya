@@ -26,7 +26,7 @@
             <class name="com.xuehai.response.testCase.Student.GetshieldStudents"/>
 
             <class name="com.xuehai.response.testCase.Teacher.PostPlatformTeacherLogin"/>
-            <!--&lt;!&ndash;<class name="com.xuehai.response.testCase.Teacher.PutFriendsIgnore"/>&ndash;&gt;-->
+            <class name="com.xuehai.response.testCase.Teacher.PutFriendsIgnore"/>
             <class name="com.xuehai.response.testCase.Teacher.PutAgree"/>
             <class name="com.xuehai.response.testCase.Teacher.DeleteFriends"/>
             <class name="com.xuehai.response.testCase.Teacher.PostGroupsbatch"/>

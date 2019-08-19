@@ -1,7 +1,10 @@
 package com.xuehai.response.Assertion;
 
-import com.alibaba.fastjson.JSONObject;
+import com.google.gson.Gson;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 import com.xuehai.base.AssertHandler;
+import com.xuehai.response.AssertionModel.GetUsersShieldsModel;
 
 import static org.testng.AssertJUnit.assertEquals;
 
@@ -17,8 +20,9 @@ public class GetUsersShieldsAssertion extends AssertHandler {
 
     @Override
     public void execAssertion(String responseJson) {
-        JSONObject assertJson = JSONObject.parseObject(responseJson);
-        int code = assertJson.getIntValue("responseCode");
+        JsonObject jsonObject = (JsonObject) new JsonParser().parse(responseJson);
+        GetUsersShieldsModel getUsersShieldsModel = new Gson().fromJson(jsonObject, GetUsersShieldsModel.class);
+        int code = getUsersShieldsModel.getResponseCode();
         assertEquals(code, 200);
     }
 }

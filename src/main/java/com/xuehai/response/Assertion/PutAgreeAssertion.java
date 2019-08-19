@@ -1,7 +1,10 @@
 package com.xuehai.response.Assertion;
 
-import com.alibaba.fastjson.JSONObject;
+import com.google.gson.Gson;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 import com.xuehai.base.AssertHandler;
+import com.xuehai.response.AssertionModel.PutAgreeModel;
 
 import static org.testng.AssertJUnit.assertEquals;
 
@@ -17,8 +20,9 @@ public class PutAgreeAssertion extends AssertHandler {
 
     @Override
     public void execAssertion(String responseJson) {
-        JSONObject assertJson = JSONObject.parseObject(responseJson);
-        int code = assertJson.getIntValue("responseCode");
+        JsonObject jsonObject = (JsonObject) new JsonParser().parse(responseJson);
+        PutAgreeModel putAgreeModel = new Gson().fromJson(jsonObject, PutAgreeModel.class);
+        int code = putAgreeModel.getResponseCode();
         assertEquals(code, 200);
     }
 }

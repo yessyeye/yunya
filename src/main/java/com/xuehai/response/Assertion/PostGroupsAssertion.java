@@ -1,7 +1,8 @@
 package com.xuehai.response.Assertion;
 
-import com.alibaba.fastjson.JSONObject;
+import com.google.gson.Gson;
 import com.xuehai.base.AssertHandler;
+import com.xuehai.response.AssertionModel.PostGroupsModel;
 
 import static org.testng.AssertJUnit.assertEquals;
 
@@ -19,11 +20,12 @@ public class PostGroupsAssertion extends AssertHandler {
 
     @Override
     public void execAssertion(String responseJson) {
-        JSONObject assertJson = JSONObject.parseObject(responseJson);
-        int code = assertJson.getIntValue("responseCode");
-        JSONObject responseInfo = assertJson.getJSONObject("responseInfo");
-        String id = responseInfo.getString("id");
+        PostGroupsModel postGroupsModel = new Gson().fromJson(responseJson, PostGroupsModel.class);
+        int code = postGroupsModel.getResponseCode();
+        String id = String.valueOf(postGroupsModel.getResponseInfo().getId());
         PostGroupsAssertion.Id = id;
         assertEquals(code, 200);
+
+
     }
 }

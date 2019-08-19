@@ -723,7 +723,7 @@
                 </queryString>
                 <body>
                     <![CDATA[
-                    {"members":[152424,152425,152569],"name":"欧阳锋、殷天正","tags":[{"key":"groupType","value":"2"}],"type":"TMP","creator":152424}
+                    {"members":[152424,152425,152569],"name":"ADMIN、ADMIN","tags":[{"key":"groupType","value":"2"}],"type":"TMP","creator":152424}
                     ]]>
                 </body>
                 <assertion>

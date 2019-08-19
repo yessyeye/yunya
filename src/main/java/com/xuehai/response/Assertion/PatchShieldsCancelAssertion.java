@@ -1,7 +1,8 @@
 package com.xuehai.response.Assertion;
 
-import com.alibaba.fastjson.JSONObject;
+import com.google.gson.Gson;
 import com.xuehai.base.AssertHandler;
+import com.xuehai.response.AssertionModel.PatchShieldsCancelModel;
 
 import static org.testng.AssertJUnit.assertEquals;
 
@@ -17,8 +18,8 @@ public class PatchShieldsCancelAssertion extends AssertHandler {
 
     @Override
     public void execAssertion(String responseJson) {
-        JSONObject assertJson = JSONObject.parseObject(responseJson);
-        int code = assertJson.getIntValue("responseCode");
+        PatchShieldsCancelModel patchShieldsCancelModel = new Gson().fromJson(responseJson, PatchShieldsCancelModel.class);
+        int code = patchShieldsCancelModel.getResponseCode();
         assertEquals(code, 204);
     }
 }

@@ -1,7 +1,8 @@
 package com.xuehai.response.Assertion;
 
-import com.alibaba.fastjson.JSONObject;
+import com.google.gson.Gson;
 import com.xuehai.base.AssertHandler;
+import com.xuehai.response.AssertionModel.GetSessionRecentModel;
 
 import static org.testng.AssertJUnit.assertEquals;
 
@@ -17,8 +18,8 @@ public class GetSessionRecentAssertion extends AssertHandler {
 
     @Override
     public void execAssertion(String responseJson) {
-        JSONObject assertJson = JSONObject.parseObject(responseJson);
-        int code = assertJson.getIntValue("responseCode");
+        GetSessionRecentModel getSessionRecentModel = new Gson().fromJson(responseJson, GetSessionRecentModel.class);
+        int code = getSessionRecentModel.getResponseCode();
         assertEquals(code, 200);
     }
 }
