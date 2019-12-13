@@ -21,8 +21,9 @@ public class GetFriendsJudgeAssertion extends AssertHandler {
     @Override
     public void execAssertion(String responseJson) {
         JsonObject assertJson = (JsonObject) new JsonParser().parse(responseJson);
-        GetFriendsJudgeModel getFriendsJudgeModel=new Gson().fromJson(String.valueOf(assertJson),GetFriendsJudgeModel.class);
-        int code = getFriendsJudgeModel.getResponseCode();
-        assertEquals(code, 200);
+        GetFriendsJudgeModel getFriendsJudgeModel = new Gson().fromJson(String.valueOf(assertJson), GetFriendsJudgeModel.class);
+        assertEquals(getFriendsJudgeModel.getResponseCode(), 200);
+        assertEquals(Boolean.getBoolean(getFriendsJudgeModel.getResponseInfo()), false);
+
     }
 }

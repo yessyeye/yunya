@@ -78,7 +78,7 @@
                 </queryString>
                 <body>
                     <![CDATA[
-                    {"userName":"ptcs2","password":"E10ADC3949BA59ABBE56E057F20F883E","deviceId":"R22H600WG6Y","osDisplay":"LRX22G.P355CZCU1AOG1.ZHITONGYUN_V1.0","imei":"359675060144777","ap":"wifi","mac":"50:9E:A7:45:8C:9D","isNew":true
+                    {"userName":"ptcs2","password":"3D8CE32D7B9728E72BFC89C445E84178","deviceId":"R22H600WG6Y","osDisplay":"LRX22G.P355CZCU1AOG1.ZHITONGYUN_V1.0","imei":"359675060144777","ap":"wifi","mac":"50:9E:A7:45:8C:9D","isNew":true
 }
 				    ]]>
                 </body>

@@ -26,7 +26,10 @@ public class PostFriendsRequestsAssertion extends AssertHandler {
         PostFriendsRequestsAssertionModel postFriendsRequestsAssertionModel = new Gson().fromJson(String.valueOf(assertJson), PostFriendsRequestsAssertionModel.class);
         int code = postFriendsRequestsAssertionModel.getResponseCode();
         assertEquals(code, 200);
+        assertEquals(postFriendsRequestsAssertionModel.getResponseInfo().get(0).isSuccess(), true);
         String id = String.valueOf(postFriendsRequestsAssertionModel.getResponseInfo().get(0).getId());
         PostFriendsRequestsAssertion.Id = id;
+
+
     }
 }

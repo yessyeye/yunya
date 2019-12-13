@@ -1088,4 +1088,77 @@
             </data>
         </dataList>
     </case>
+    <case class="com.xuehai.response.testCase.Teacher.GetUserSearch" name="搜索用户">
+        <request>
+            <header>
+                <content-type>application/json</content-type>
+                <Authorization>?</Authorization>
+                <Userid>152423</Userid>
+                <Schoolid>2747</Schoolid>
+            </header>
+            <url>/api/v1/users/search</url>
+            <method>get</method>
+            <!--
+                urlParam主要用于url中包含动态参数的，如v1/{user}/login，urlParam设置如user=32732（<K,V>,参数名称一致）
+             -->
+            <urlParam></urlParam>
+            <queryString></queryString>
+
+            <sign></sign>
+        </request>
+        <dataList>
+            <data id="case1" description="正常数据">
+
+                <!-- queryString是指url '?' 后面拼接的查询字段 -->
+                <queryString>
+                    <![CDATA[
+                keywords=1&page=0&size=20
+				    ]]>
+                </queryString>
+                <body>
+                    <![CDATA[
+                    ]]>
+                </body>
+                <assertion>
+                    {"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}
+                </assertion>
+            </data>
+        </dataList>
+    </case>
+    <case class="com.xuehai.response.testCase.Teacher.PostUserSessionsOa" name="创建答疑">
+        <request>
+            <header>
+                <content-type>application/json</content-type>
+                <Authorization>?</Authorization>
+            </header>
+            <url>/api/v1/users/152424/sessions/152414/oa</url>
+            <method>post</method>
+            <!--
+                urlParam主要用于url中包含动态参数的，如v1/{user}/login，urlParam设置如user=32732（<K,V>,参数名称一致）
+             -->
+            <urlParam></urlParam>
+            <queryString></queryString>
+
+            <sign></sign>
+        </request>
+        <dataList>
+            <data id="case1" description="正常数据">
+
+                <!-- queryString是指url '?' 后面拼接的查询字段 -->
+                <queryString>
+                    <![CDATA[
+                sign=2c4422aee87bd18659d3d2d1995e74a7&t=15749188421910
+				    ]]>
+                </queryString>
+                <body>
+                    <![CDATA[
+                    {"answerType":"AUDIO","imageUrls":[],"token":"*"}
+                    ]]>
+                </body>
+                <assertion>
+                    {"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}
+                </assertion>
+            </data>
+        </dataList>
+    </case>
 </xml>
