@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Report]" allow-return-values="true">
+  <parameter name="testCasePath" value="src/test/resources/case_login.xml"/>
+  <parameter name="testCasePath1" value="src/test/resources/case.xml"/>
+  <listeners>
+    <listener class-name="org.testng.reporters.FailedReporter"/>
+    <listener class-name="org.testng.reporters.XMLReporter"/>
+  </listeners>
+  <test name="TestCaseTest(failed)">
+    <classes>
+      <class name="com.xuehai.response.testCase.Teacher.PutAgree">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="action" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.xuehai.response.testCase.Teacher.PutAgree -->
+      <class name="com.xuehai.response.testCase.Student.PostFriendsRequests">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="action" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.xuehai.response.testCase.Student.PostFriendsRequests -->
+      <class name="com.xuehai.response.testCase.Student.PostPlatformStudentLogin">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="action" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.xuehai.response.testCase.Student.PostPlatformStudentLogin -->
+      <class name="com.xuehai.response.testCase.Student.GetFriendsJudge">
+        <methods>
+          <include name="action" invocation-numbers="0"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.xuehai.response.testCase.Student.GetFriendsJudge -->
+      <class name="com.xuehai.response.testCase.Teacher.PutFriendsIgnore">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="action" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.xuehai.response.testCase.Teacher.PutFriendsIgnore -->
+      <class name="com.xuehai.response.testCase.Student.GetShieldStudentNotes">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+          <include name="action" invocation-numbers="0"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.xuehai.response.testCase.Student.GetShieldStudentNotes -->
+      <class name="com.xuehai.response.testCase.Student.GetshieldStudents">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="action" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.xuehai.response.testCase.Student.GetshieldStudents -->
+    </classes>
+  </test> <!-- TestCaseTest(failed) -->
+</suite> <!-- Failed suite [Report] -->
