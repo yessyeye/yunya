@@ -1,8 +1,7 @@
 package com.xuehai.response.Assertion;
 
-import com.google.gson.Gson;
+import com.alibaba.fastjson.JSONObject;
 import com.xuehai.base.AssertHandler;
-import com.xuehai.response.AssertionModel.PatchUsersGroupsModel;
 
 import static org.testng.AssertJUnit.assertEquals;
 
@@ -18,8 +17,8 @@ public class PatchUsersGroupsAssertion extends AssertHandler {
 
     @Override
     public void execAssertion(String responseJson) {
-        PatchUsersGroupsModel patchUsersGroupsModel = new Gson().fromJson(responseJson, PatchUsersGroupsModel.class);
-        int code = patchUsersGroupsModel.getResponseCode();
+        JSONObject assertJson = JSONObject.parseObject(responseJson);
+        int code = assertJson.getIntValue("responseCode");
         assertEquals(code, 204);
     }
 }

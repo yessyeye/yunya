@@ -1,10 +1,9 @@
 package com.xuehai.response.Assertion;
 
-import com.google.gson.Gson;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
+import com.google.gson.JsonArray;
 import com.xuehai.base.AssertHandler;
-import com.xuehai.response.AssertionModel.PostFriendsRequestsAssertionModel;
 
 import static org.testng.AssertJUnit.assertEquals;
 
@@ -22,14 +21,12 @@ public class PostFriendsRequestsAssertion extends AssertHandler {
 
     @Override
     public void execAssertion(String responseJson) {
-        JsonObject assertJson = (JsonObject) new JsonParser().parse(responseJson);
-        PostFriendsRequestsAssertionModel postFriendsRequestsAssertionModel = new Gson().fromJson(String.valueOf(assertJson), PostFriendsRequestsAssertionModel.class);
-        int code = postFriendsRequestsAssertionModel.getResponseCode();
+        JSONObject assertJson = JSONObject.parseObject(responseJson);
+        int code = assertJson.getIntValue("responseCode");
         assertEquals(code, 200);
-        assertEquals(postFriendsRequestsAssertionModel.getResponseInfo().get(0).isSuccess(), true);
-        String id = String.valueOf(postFriendsRequestsAssertionModel.getResponseInfo().get(0).getId());
+        JSONArray responseInfo = assertJson.getJSONArray("responseInfo");
+        JSONObject response = (JSONObject) responseInfo.get(0);
+        String id = response.getString("id");
         PostFriendsRequestsAssertion.Id = id;
-
-
     }
 }

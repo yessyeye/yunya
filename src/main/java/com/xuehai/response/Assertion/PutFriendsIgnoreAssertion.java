@@ -1,11 +1,7 @@
 package com.xuehai.response.Assertion;
 
-
-import com.google.gson.Gson;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonParser;
+import com.alibaba.fastjson.JSONObject;
 import com.xuehai.base.AssertHandler;
-import com.xuehai.response.AssertionModel.PutFriendsIgnoreModel;
 
 import static org.testng.AssertJUnit.assertEquals;
 
@@ -21,9 +17,8 @@ public class PutFriendsIgnoreAssertion extends AssertHandler {
 
     @Override
     public void execAssertion(String responseJson) {
-        JsonElement assertJson = new JsonParser().parse(responseJson);
-        PutFriendsIgnoreModel putFriendsIgnoreModel = new Gson().fromJson(assertJson, PutFriendsIgnoreModel.class);
-        int code = putFriendsIgnoreModel.getResponseCode();
+        JSONObject assertJson = JSONObject.parseObject(responseJson);
+        int code = assertJson.getIntValue("responseCode");
         assertEquals(code, 204);
     }
 }

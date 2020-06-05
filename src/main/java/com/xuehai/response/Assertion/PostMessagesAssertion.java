@@ -1,8 +1,7 @@
 package com.xuehai.response.Assertion;
 
-import com.google.gson.Gson;
+import com.alibaba.fastjson.JSONObject;
 import com.xuehai.base.AssertHandler;
-import com.xuehai.response.AssertionModel.PostMessagesModel;
 
 import static org.testng.AssertJUnit.assertEquals;
 
@@ -20,11 +19,12 @@ public class PostMessagesAssertion extends AssertHandler {
 
     @Override
     public void execAssertion(String responseJson) {
-        PostMessagesModel postMessagesModel = new Gson().fromJson(responseJson, PostMessagesModel.class);
-        int code = postMessagesModel.getResponseCode();
+        JSONObject assertJson = JSONObject.parseObject(responseJson);
+        int code = assertJson.getIntValue("responseCode");
         assertEquals(code, 200);
         //取msgId，给其他方法调用
-        String msgId = String.valueOf(postMessagesModel.getResponseInfo().getMsgId());
+        JSONObject responseInfo = assertJson.getJSONObject("responseInfo");
+        String msgId = responseInfo.getString("msgId");
         PostMessagesAssertion.msgId = msgId;
 
     }

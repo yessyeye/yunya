@@ -4,7 +4,7 @@ import com.xuehai.base.AssertHandler;
 import com.xuehai.base.BaseTest;
 import com.xuehai.base.Log;
 import com.xuehai.model.Entity;
-import com.xuehai.response.Assertion.DeleteUsersShieldsAssertion;
+import com.xuehai.response.Assertion.PostUsersShieldsAssertion;
 import com.xuehai.util.OperateEntity;
 import org.testng.ITestContext;
 import org.testng.annotations.*;
@@ -21,7 +21,7 @@ public class DeleteUsersShields extends BaseTest {
     private static HashMap<String, AssertHandler> assertMap = new HashMap<String, AssertHandler>();
 
     static {
-        assertMap.put("first", new DeleteUsersShieldsAssertion());
+        assertMap.put("first", new PostUsersShieldsAssertion());
     }
 
     @BeforeSuite

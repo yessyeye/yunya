@@ -1,8 +1,7 @@
 package com.xuehai.response.Assertion;
 
-import com.google.gson.Gson;
+import com.alibaba.fastjson.JSONObject;
 import com.xuehai.base.AssertHandler;
-import com.xuehai.response.AssertionModel.DeleteUsersGroupsModel;
 
 import static org.testng.AssertJUnit.assertEquals;
 
@@ -18,8 +17,8 @@ public class DeleteUsersGroupsAssertion extends AssertHandler {
 
     @Override
     public void execAssertion(String responseJson) {
-        DeleteUsersGroupsModel deleteUsersGroupsModel = new Gson().fromJson(responseJson, DeleteUsersGroupsModel.class);
-        int code = deleteUsersGroupsModel.getResponseCode();
+        JSONObject assertJson = JSONObject.parseObject(responseJson);
+        int code = assertJson.getIntValue("responseCode");
         assertEquals(code, 204);
     }
 }

@@ -26,9 +26,8 @@
             <class name="com.xuehai.response.testCase.Student.GetshieldStudents"/>
 
             <class name="com.xuehai.response.testCase.Teacher.PostPlatformTeacherLogin"/>
-            <class name="com.xuehai.response.testCase.Teacher.PutFriendsIgnore"/>
+            <!--<class name="com.xuehai.response.testCase.Teacher.PutFriendsIgnore"/>-->
             <class name="com.xuehai.response.testCase.Teacher.PutAgree"/>
-            <!--<class name="com.xuehai.response.testCase.Teacher.GetUserSearch"/>-->
             <class name="com.xuehai.response.testCase.Teacher.DeleteFriends"/>
             <class name="com.xuehai.response.testCase.Teacher.PostGroupsbatch"/>
             <class name="com.xuehai.response.testCase.Teacher.GetUsersShields"/>
@@ -53,7 +52,7 @@
             <class name="com.xuehai.response.testCase.Teacher.DeleteUsersShields"/>
             <class name="com.xuehai.response.testCase.Teacher.PatchShieldsCancel"/>
             <class name="com.xuehai.response.testCase.Teacher.PatchShieldNotesCancel"/>
-            <class name="com.xuehai.response.testCase.Teacher.PostUserSessionsOa"/>
+
         </classes>
     </test>
 </suite>

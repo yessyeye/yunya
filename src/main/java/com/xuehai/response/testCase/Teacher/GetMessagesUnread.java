@@ -5,6 +5,7 @@ import com.xuehai.base.BaseTest;
 import com.xuehai.base.Log;
 import com.xuehai.model.Entity;
 import com.xuehai.response.Assertion.GetMessagesUnreadAssertion;
+import com.xuehai.response.Assertion.PostClientsAssertion;
 import com.xuehai.util.OperateEntity;
 import org.testng.ITestContext;
 import org.testng.annotations.*;
