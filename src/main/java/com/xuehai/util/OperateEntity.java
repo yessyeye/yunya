@@ -62,5 +62,4 @@ public class OperateEntity {
         entity.getHeader().replace("Authorization", "?", authTokenStudent);
     }
 
-
 }

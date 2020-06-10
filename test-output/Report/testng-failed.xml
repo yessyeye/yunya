@@ -9,86 +9,6 @@
   </listeners>
   <test name="TestCaseTest(failed)">
     <classes>
-      <class name="com.xuehai.response.testCase.Teacher.GetUsersShields">
-        <methods>
-          <include name="action" invocation-numbers="0"/>
-          <include name="beforeSuite"/>
-          <include name="afterClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- com.xuehai.response.testCase.Teacher.GetUsersShields -->
-      <class name="com.xuehai.response.testCase.Teacher.GetShieldNotes">
-        <methods>
-          <include name="action" invocation-numbers="0"/>
-          <include name="beforeClass"/>
-          <include name="afterClass"/>
-          <include name="beforeSuite"/>
-        </methods>
-      </class> <!-- com.xuehai.response.testCase.Teacher.GetShieldNotes -->
-      <class name="com.xuehai.response.testCase.Teacher.DeleteUsersGroups">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="action" invocation-numbers="0"/>
-          <include name="afterClass"/>
-          <include name="beforeSuite"/>
-        </methods>
-      </class> <!-- com.xuehai.response.testCase.Teacher.DeleteUsersGroups -->
-      <class name="com.xuehai.response.testCase.Teacher.PostUsersShields">
-        <methods>
-          <include name="action" invocation-numbers="0"/>
-          <include name="beforeClass"/>
-          <include name="afterClass"/>
-          <include name="beforeSuite"/>
-        </methods>
-      </class> <!-- com.xuehai.response.testCase.Teacher.PostUsersShields -->
-      <class name="com.xuehai.response.testCase.Teacher.PostMessages">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="action" invocation-numbers="0"/>
-          <include name="beforeSuite"/>
-          <include name="afterClass"/>
-        </methods>
-      </class> <!-- com.xuehai.response.testCase.Teacher.PostMessages -->
-      <class name="com.xuehai.response.testCase.Teacher.PostClients">
-        <methods>
-          <include name="afterClass"/>
-          <include name="beforeSuite"/>
-          <include name="action" invocation-numbers="0"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- com.xuehai.response.testCase.Teacher.PostClients -->
-      <class name="com.xuehai.response.testCase.Teacher.PatchUsersGroups">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeSuite"/>
-          <include name="afterClass"/>
-          <include name="action" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.xuehai.response.testCase.Teacher.PatchUsersGroups -->
-      <class name="com.xuehai.response.testCase.Teacher.PostGroupsbatch">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="afterClass"/>
-          <include name="action" invocation-numbers="0"/>
-          <include name="beforeSuite"/>
-        </methods>
-      </class> <!-- com.xuehai.response.testCase.Teacher.PostGroupsbatch -->
-      <class name="com.xuehai.response.testCase.Student.PostFriendsRequests">
-        <methods>
-          <include name="beforeSuite"/>
-          <include name="afterClass"/>
-          <include name="beforeClass"/>
-          <include name="action" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.xuehai.response.testCase.Student.PostFriendsRequests -->
-      <class name="com.xuehai.response.testCase.Teacher.PatchMessagesRevoke">
-        <methods>
-          <include name="afterClass"/>
-          <include name="beforeClass"/>
-          <include name="action" invocation-numbers="0"/>
-          <include name="beforeSuite"/>
-        </methods>
-      </class> <!-- com.xuehai.response.testCase.Teacher.PatchMessagesRevoke -->
       <class name="com.xuehai.response.testCase.Teacher.PutAgree">
         <methods>
           <include name="beforeSuite"/>
@@ -97,54 +17,14 @@
           <include name="action" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.xuehai.response.testCase.Teacher.PutAgree -->
-      <class name="com.xuehai.response.testCase.Teacher.PatchSessionsTop">
-        <methods>
-          <include name="action" invocation-numbers="0"/>
-          <include name="afterClass"/>
-          <include name="beforeSuite"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- com.xuehai.response.testCase.Teacher.PatchSessionsTop -->
-      <class name="com.xuehai.response.testCase.Teacher.DeleteSessions">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="afterClass"/>
-          <include name="beforeSuite"/>
-          <include name="action" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.xuehai.response.testCase.Teacher.DeleteSessions -->
-      <class name="com.xuehai.response.testCase.Teacher.DeleteSessionsTop">
-        <methods>
-          <include name="action" invocation-numbers="0"/>
-          <include name="beforeClass"/>
-          <include name="beforeSuite"/>
-          <include name="afterClass"/>
-        </methods>
-      </class> <!-- com.xuehai.response.testCase.Teacher.DeleteSessionsTop -->
-      <class name="com.xuehai.response.testCase.Teacher.GetFriendsRequests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="action" invocation-numbers="0"/>
-          <include name="afterClass"/>
-          <include name="beforeSuite"/>
-        </methods>
-      </class> <!-- com.xuehai.response.testCase.Teacher.GetFriendsRequests -->
-      <class name="com.xuehai.response.testCase.Teacher.DeleteShieldNotes">
-        <methods>
-          <include name="afterClass"/>
-          <include name="beforeSuite"/>
-          <include name="beforeClass"/>
-          <include name="action" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.xuehai.response.testCase.Teacher.DeleteShieldNotes -->
-      <class name="com.xuehai.response.testCase.Teacher.GetMessagesUnread">
+      <class name="com.xuehai.response.testCase.Student.PostFriendsRequests">
         <methods>
           <include name="beforeSuite"/>
           <include name="afterClass"/>
-          <include name="action" invocation-numbers="0"/>
           <include name="beforeClass"/>
+          <include name="action" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.xuehai.response.testCase.Teacher.GetMessagesUnread -->
+      </class> <!-- com.xuehai.response.testCase.Student.PostFriendsRequests -->
       <class name="com.xuehai.response.testCase.Student.GetFriendsJudge">
         <methods>
           <include name="action" invocation-numbers="0"/>
@@ -153,22 +33,6 @@
           <include name="beforeClass"/>
         </methods>
       </class> <!-- com.xuehai.response.testCase.Student.GetFriendsJudge -->
-      <class name="com.xuehai.response.testCase.Teacher.PatchShieldNotesCancel">
-        <methods>
-          <include name="beforeSuite"/>
-          <include name="afterClass"/>
-          <include name="action" invocation-numbers="0"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- com.xuehai.response.testCase.Teacher.PatchShieldNotesCancel -->
-      <class name="com.xuehai.response.testCase.Teacher.GetSessionRecent">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeSuite"/>
-          <include name="action" invocation-numbers="0"/>
-          <include name="afterClass"/>
-        </methods>
-      </class> <!-- com.xuehai.response.testCase.Teacher.GetSessionRecent -->
       <class name="com.xuehai.response.testCase.Student.GetShieldStudentNotes">
         <methods>
           <include name="beforeClass"/>
@@ -177,77 +41,6 @@
           <include name="afterClass"/>
         </methods>
       </class> <!-- com.xuehai.response.testCase.Student.GetShieldStudentNotes -->
-      <class name="com.xuehai.response.testCase.Teacher.DeleteFriends">
-        <methods>
-          <include name="afterClass"/>
-          <include name="action" invocation-numbers="0"/>
-          <include name="beforeClass"/>
-          <include name="beforeSuite"/>
-        </methods>
-      </class> <!-- com.xuehai.response.testCase.Teacher.DeleteFriends -->
-      <class name="com.xuehai.response.testCase.Student.PostPlatformStudentLogin">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="action" invocation-numbers="0"/>
-          <include name="beforeSuite"/>
-        </methods>
-      </class> <!-- com.xuehai.response.testCase.Student.PostPlatformStudentLogin -->
-      <class name="com.xuehai.response.testCase.Teacher.PatchMessagesReadAck">
-        <methods>
-          <include name="action" invocation-numbers="0"/>
-          <include name="beforeSuite"/>
-          <include name="afterClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- com.xuehai.response.testCase.Teacher.PatchMessagesReadAck -->
-      <class name="com.xuehai.response.testCase.Teacher.PatchShieldsCancel">
-        <methods>
-          <include name="beforeSuite"/>
-          <include name="afterClass"/>
-          <include name="action" invocation-numbers="0"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- com.xuehai.response.testCase.Teacher.PatchShieldsCancel -->
-      <class name="com.xuehai.response.testCase.Teacher.GetSessionMessages">
-        <methods>
-          <include name="afterClass"/>
-          <include name="beforeSuite"/>
-          <include name="action" invocation-numbers="0"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- com.xuehai.response.testCase.Teacher.GetSessionMessages -->
-      <class name="com.xuehai.response.testCase.Teacher.DeleteUsersShields">
-        <methods>
-          <include name="beforeSuite"/>
-          <include name="afterClass"/>
-          <include name="beforeClass"/>
-          <include name="action" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.xuehai.response.testCase.Teacher.DeleteUsersShields -->
-      <class name="com.xuehai.response.testCase.Teacher.PostGroups">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="afterClass"/>
-          <include name="beforeSuite"/>
-          <include name="action" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.xuehai.response.testCase.Teacher.PostGroups -->
-      <class name="com.xuehai.response.testCase.Teacher.PostPlatformTeacherLogin">
-        <methods>
-          <include name="afterClass"/>
-          <include name="action" invocation-numbers="0"/>
-          <include name="beforeClass"/>
-          <include name="beforeSuite"/>
-        </methods>
-      </class> <!-- com.xuehai.response.testCase.Teacher.PostPlatformTeacherLogin -->
-      <class name="com.xuehai.response.testCase.Teacher.PostShieldNotes">
-        <methods>
-          <include name="action" invocation-numbers="0"/>
-          <include name="afterClass"/>
-          <include name="beforeSuite"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- com.xuehai.response.testCase.Teacher.PostShieldNotes -->
       <class name="com.xuehai.response.testCase.Student.GetshieldStudents">
         <methods>
           <include name="beforeClass"/>
