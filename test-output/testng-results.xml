@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="33" passed="33">
+<testng-results skipped="0" failed="0" ignored="0" total="34" passed="34">
   <reporter-output>
   </reporter-output>
-  <suite name="Report" duration-ms="6749" started-at="2020-06-10T06:44:22Z" finished-at="2020-06-10T06:44:28Z">
+  <suite name="Report" duration-ms="6213" started-at="2020-06-10T07:09:32Z" finished-at="2020-06-10T07:09:38Z">
     <groups>
     </groups>
-    <test name="TestCaseTest" duration-ms="6749" started-at="2020-06-10T06:44:22Z" finished-at="2020-06-10T06:44:28Z">
+    <test name="TestCaseTest" duration-ms="6213" started-at="2020-06-10T07:09:32Z" finished-at="2020-06-10T07:09:38Z">
       <class name="com.xuehai.response.testCase.Teacher.PutGroupsSilence">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PutGroupsSilence@5b275dab]" name="beforeClass" is-config="true" duration-ms="3" started-at="2020-06-10T14:44:27Z" finished-at="2020-06-10T14:44:27Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PutGroupsSilence@5b275dab]" name="beforeClass" is-config="true" duration-ms="3" started-at="2020-06-10T15:09:37Z" finished-at="2020-06-10T15:09:37Z">
           <params>
             <param index="0">
               <value>
@@ -18,24 +18,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PutGroupsSilence@5b275dab]" name="action" duration-ms="38" started-at="2020-06-10T14:44:27Z" description="增加或删除用户禁言" data-provider="data" finished-at="2020-06-10T14:44:27Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PutGroupsSilence@5b275dab]" name="action" duration-ms="44" started-at="2020-06-10T15:09:37Z" description="增加或删除用户禁言" data-provider="data" finished-at="2020-06-10T15:09:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/groups/67484/silence, urlParam=, method=PUT, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MTQiLCJzdWIiOiJwdGNzMiIsImNyZWF0ZWQiOjE1OTE3NzE0NjMxMzEsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjMsInZlcnNpb24iOiIxMjcwNjA3NzI1MzQ4MjU3ODAyIiwic2lkIjoiN2FiOGUxMDVmZDNhNDUwNjk4MmUxNjExMzA5NzYwZTkifQ.4ADAG1tgs38Vu6T70DkaKqRx3-nVNtz_C9uCWFQTyc5HkaqDezkmxDG0QcXMMbaCWSgNjay89OY4-kQ4GRpZOA,content-type=application/json], queryString=&sign=25fb135ca59c651ad1c114040013910d&t=1591771467628, bodyData={"adds":[152425,152569],"removes":[]}, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/groups/67487/silence, urlParam=, method=PUT, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MTQiLCJzdWIiOiJwdGNzMiIsImNyZWF0ZWQiOjE1OTE3NzI5NzM1MTYsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzMsInZlcnNpb24iOiIxMjcwNjE0MDYwMzYyMTA0ODYwIiwic2lkIjoiNmEyNzdkZjcyYWFkNGRhYzhiZTIyZTJlMDgwYjc5NzAifQ.6vwYIQBg-koeWIcsCdkxwctNhZJmmkJEw3w09M_qR9lSAkIGQ3_KOlmmHsPqohCHD86vWDZgLJUyGIQBkY1plQ,content-type=application/json], queryString=&sign=192ea7eac17b46582f2af321d910e2e8&t=1591772977759, bodyData={"adds":[152425,152569],"removes":[]}, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PutGroupsSilence@5b275dab]" name="afterClass" is-config="true" duration-ms="23" started-at="2020-06-10T14:44:27Z" finished-at="2020-06-10T14:44:27Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PutGroupsSilence@5b275dab]" name="afterClass" is-config="true" duration-ms="29" started-at="2020-06-10T15:09:37Z" finished-at="2020-06-10T15:09:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Teacher.PutGroupsSilence -->
       <class name="com.xuehai.response.testCase.Teacher.PatchUsersGroups">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchUsersGroups@523884b2]" name="beforeClass" is-config="true" duration-ms="2" started-at="2020-06-10T14:44:27Z" finished-at="2020-06-10T14:44:27Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchUsersGroups@523884b2]" name="beforeClass" is-config="true" duration-ms="3" started-at="2020-06-10T15:09:37Z" finished-at="2020-06-10T15:09:37Z">
           <params>
             <param index="0">
               <value>
@@ -46,24 +46,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchUsersGroups@523884b2]" name="action" duration-ms="16" started-at="2020-06-10T14:44:27Z" description="修改群聊信息" data-provider="data" finished-at="2020-06-10T14:44:27Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchUsersGroups@523884b2]" name="action" duration-ms="16" started-at="2020-06-10T15:09:37Z" description="修改群聊信息" data-provider="data" finished-at="2020-06-10T15:09:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/groups/31566, urlParam=, method=PATCH, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzE0NjQxNzIsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjQsInZlcnNpb24iOiIxMjcwNjA3NzI5NzE4NzIyNjExIiwic2lkIjoiNTZkMmEwNTMxNmRmNGMxZWFkYWNhNWNlYmJjNWE0ZWQifQ.wzsbCUUAwSerBkqBxMBV7-njbH6aUec_q3YWrq6s-bF0gSfu3FQvLDOVmXAnDHXrNLy7mpIhnVThciBb-vvypw,content-type=application/json], queryString=&sign=10a7a4ffac7d41477fb7f6422ec68f1a&t=1591771467573, bodyData={"joinedMembers":[],"name":"段誉、郭靖、令狐冲、黄蓉、华筝","removedMembers":[]}, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/groups/31566, urlParam=, method=PATCH, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzI5NzQ1MjQsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzQsInZlcnNpb24iOiIxMjcwNjE0MDY0NTg5OTYzMzMwIiwic2lkIjoiMTA0MWI1ZmU5OTEwNDc1OTg4ZmE4ODFlOGUzOGYyZGEifQ.idmsVcKnZrWuX-WieinF8qJyGZZvLWaaHIGRBE_GIpIZl1u7RWdTlEXzVQUcOTtHW8sHZfdcagDYH3HcZ5D5Cw,content-type=application/json], queryString=&sign=bb7c7cf3852116a3760ab04ccaa98c16&t=1591772977709, bodyData={"joinedMembers":[],"name":"段誉、郭靖、令狐冲、黄蓉、华筝","removedMembers":[]}, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchUsersGroups@523884b2]" name="afterClass" is-config="true" duration-ms="37" started-at="2020-06-10T14:44:27Z" finished-at="2020-06-10T14:44:27Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchUsersGroups@523884b2]" name="afterClass" is-config="true" duration-ms="30" started-at="2020-06-10T15:09:37Z" finished-at="2020-06-10T15:09:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Teacher.PatchUsersGroups -->
       <class name="com.xuehai.response.testCase.Teacher.DeleteUsersShields">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteUsersShields@68c4039c]" name="beforeClass" is-config="true" duration-ms="9" started-at="2020-06-10T14:44:28Z" finished-at="2020-06-10T14:44:28Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteUsersShields@68c4039c]" name="beforeClass" is-config="true" duration-ms="3" started-at="2020-06-10T15:09:38Z" finished-at="2020-06-10T15:09:38Z">
           <params>
             <param index="0">
               <value>
@@ -74,24 +74,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteUsersShields@68c4039c]" name="action" duration-ms="19" started-at="2020-06-10T14:44:28Z" description="取消屏蔽对方" data-provider="data" finished-at="2020-06-10T14:44:28Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteUsersShields@68c4039c]" name="action" duration-ms="17" started-at="2020-06-10T15:09:38Z" description="取消屏蔽对方" data-provider="data" finished-at="2020-06-10T15:09:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/shields/, urlParam=, method=DELETE, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MTQiLCJzdWIiOiJwdGNzMiIsImNyZWF0ZWQiOjE1OTE3NzE0NjMxMzEsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjMsInZlcnNpb24iOiIxMjcwNjA3NzI1MzQ4MjU3ODAyIiwic2lkIjoiN2FiOGUxMDVmZDNhNDUwNjk4MmUxNjExMzA5NzYwZTkifQ.4ADAG1tgs38Vu6T70DkaKqRx3-nVNtz_C9uCWFQTyc5HkaqDezkmxDG0QcXMMbaCWSgNjay89OY4-kQ4GRpZOA,content-type=application/json], queryString=peerIds=152414&sign=b1afa1b1f640735343e3ec8c4d7b476d&t=1591771468574, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/shields/, urlParam=, method=DELETE, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MTQiLCJzdWIiOiJwdGNzMiIsImNyZWF0ZWQiOjE1OTE3NzI5NzM1MTYsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzMsInZlcnNpb24iOiIxMjcwNjE0MDYwMzYyMTA0ODYwIiwic2lkIjoiNmEyNzdkZjcyYWFkNGRhYzhiZTIyZTJlMDgwYjc5NzAifQ.6vwYIQBg-koeWIcsCdkxwctNhZJmmkJEw3w09M_qR9lSAkIGQ3_KOlmmHsPqohCHD86vWDZgLJUyGIQBkY1plQ,content-type=application/json], queryString=peerIds=152414&sign=2a32dcf17a48996f6b073258dca390d8&t=1591772978718, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteUsersShields@68c4039c]" name="afterClass" is-config="true" duration-ms="29" started-at="2020-06-10T14:44:28Z" finished-at="2020-06-10T14:44:28Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteUsersShields@68c4039c]" name="afterClass" is-config="true" duration-ms="31" started-at="2020-06-10T15:09:38Z" finished-at="2020-06-10T15:09:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Teacher.DeleteUsersShields -->
       <class name="com.xuehai.response.testCase.Teacher.GetSessionMessages">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetSessionMessages@475530b9]" name="beforeClass" is-config="true" duration-ms="3" started-at="2020-06-10T14:44:25Z" finished-at="2020-06-10T14:44:25Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetSessionMessages@475530b9]" name="beforeClass" is-config="true" duration-ms="4" started-at="2020-06-10T15:09:35Z" finished-at="2020-06-10T15:09:35Z">
           <params>
             <param index="0">
               <value>
@@ -102,24 +102,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetSessionMessages@475530b9]" name="action" duration-ms="32" started-at="2020-06-10T14:44:25Z" description="获取会话历史消息列表" data-provider="data" finished-at="2020-06-10T14:44:25Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetSessionMessages@475530b9]" name="action" duration-ms="27" started-at="2020-06-10T15:09:35Z" description="获取会话历史消息列表" data-provider="data" finished-at="2020-06-10T15:09:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/sessions/152569/messages/, urlParam=, method=GET, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzE0NjQxNzIsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjQsInZlcnNpb24iOiIxMjcwNjA3NzI5NzE4NzIyNjExIiwic2lkIjoiNTZkMmEwNTMxNmRmNGMxZWFkYWNhNWNlYmJjNWE0ZWQifQ.wzsbCUUAwSerBkqBxMBV7-njbH6aUec_q3YWrq6s-bF0gSfu3FQvLDOVmXAnDHXrNLy7mpIhnVThciBb-vvypw,content-type=application/json], queryString=sessionType=SINGLE&msgCount=12&msgIdBegin=13&sign=cd767fa4e424989102b8111f695811ca&t=1591771465318, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/sessions/152569/messages/, urlParam=, method=GET, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzI5NzQ1MjQsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzQsInZlcnNpb24iOiIxMjcwNjE0MDY0NTg5OTYzMzMwIiwic2lkIjoiMTA0MWI1ZmU5OTEwNDc1OTg4ZmE4ODFlOGUzOGYyZGEifQ.idmsVcKnZrWuX-WieinF8qJyGZZvLWaaHIGRBE_GIpIZl1u7RWdTlEXzVQUcOTtHW8sHZfdcagDYH3HcZ5D5Cw,content-type=application/json], queryString=sessionType=SINGLE&msgCount=12&msgIdBegin=13&sign=43e269c1464449fcb17eb0e4cb98001e&t=1591772975601, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.GetSessionMessages@475530b9]" name="afterClass" is-config="true" duration-ms="37" started-at="2020-06-10T14:44:25Z" finished-at="2020-06-10T14:44:25Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.GetSessionMessages@475530b9]" name="afterClass" is-config="true" duration-ms="40" started-at="2020-06-10T15:09:35Z" finished-at="2020-06-10T15:09:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Teacher.GetSessionMessages -->
       <class name="com.xuehai.response.testCase.Teacher.PatchMessagesRevoke">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchMessagesRevoke@d8355a8]" name="beforeClass" is-config="true" duration-ms="5" started-at="2020-06-10T14:44:26Z" finished-at="2020-06-10T14:44:26Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchMessagesRevoke@d8355a8]" name="beforeClass" is-config="true" duration-ms="3" started-at="2020-06-10T15:09:36Z" finished-at="2020-06-10T15:09:36Z">
           <params>
             <param index="0">
               <value>
@@ -130,24 +130,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchMessagesRevoke@d8355a8]" name="action" duration-ms="29" started-at="2020-06-10T14:44:26Z" description="撤回消息" data-provider="data" finished-at="2020-06-10T14:44:26Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchMessagesRevoke@d8355a8]" name="action" duration-ms="68" started-at="2020-06-10T15:09:36Z" description="撤回消息" data-provider="data" finished-at="2020-06-10T15:09:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/sessions/152414/messages/10363/revoke, urlParam=, method=PATCH, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzE0NjQxNzIsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjQsInZlcnNpb24iOiIxMjcwNjA3NzI5NzE4NzIyNjExIiwic2lkIjoiNTZkMmEwNTMxNmRmNGMxZWFkYWNhNWNlYmJjNWE0ZWQifQ.wzsbCUUAwSerBkqBxMBV7-njbH6aUec_q3YWrq6s-bF0gSfu3FQvLDOVmXAnDHXrNLy7mpIhnVThciBb-vvypw,content-type=application/json], queryString=sessionType=SINGLE&sign=91e4468bb915f777dcf037cf316ce259&t=1591771466744, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/sessions/152414/messages/10366/revoke, urlParam=, method=PATCH, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzI5NzQ1MjQsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzQsInZlcnNpb24iOiIxMjcwNjE0MDY0NTg5OTYzMzMwIiwic2lkIjoiMTA0MWI1ZmU5OTEwNDc1OTg4ZmE4ODFlOGUzOGYyZGEifQ.idmsVcKnZrWuX-WieinF8qJyGZZvLWaaHIGRBE_GIpIZl1u7RWdTlEXzVQUcOTtHW8sHZfdcagDYH3HcZ5D5Cw,content-type=application/json], queryString=sessionType=SINGLE&sign=fe2676d2453c269f47d6011ac67b9e91&t=1591772976996, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchMessagesRevoke@d8355a8]" name="afterClass" is-config="true" duration-ms="50" started-at="2020-06-10T14:44:26Z" finished-at="2020-06-10T14:44:26Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchMessagesRevoke@d8355a8]" name="afterClass" is-config="true" duration-ms="30" started-at="2020-06-10T15:09:37Z" finished-at="2020-06-10T15:09:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Teacher.PatchMessagesRevoke -->
       <class name="com.xuehai.response.testCase.Teacher.GetMessagesUnread">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetMessagesUnread@4c70fda8]" name="beforeClass" is-config="true" duration-ms="6" started-at="2020-06-10T14:44:25Z" finished-at="2020-06-10T14:44:25Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetMessagesUnread@4c70fda8]" name="beforeClass" is-config="true" duration-ms="9" started-at="2020-06-10T15:09:35Z" finished-at="2020-06-10T15:09:35Z">
           <params>
             <param index="0">
               <value>
@@ -158,52 +158,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetMessagesUnread@4c70fda8]" name="action" duration-ms="892" started-at="2020-06-10T14:44:25Z" description="获取未读消息" data-provider="data" finished-at="2020-06-10T14:44:26Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetMessagesUnread@4c70fda8]" name="action" duration-ms="858" started-at="2020-06-10T15:09:35Z" description="获取未读消息" data-provider="data" finished-at="2020-06-10T15:09:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/messages/unread, urlParam=, method=GET, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzE0NjQxNzIsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjQsInZlcnNpb24iOiIxMjcwNjA3NzI5NzE4NzIyNjExIiwic2lkIjoiNTZkMmEwNTMxNmRmNGMxZWFkYWNhNWNlYmJjNWE0ZWQifQ.wzsbCUUAwSerBkqBxMBV7-njbH6aUec_q3YWrq6s-bF0gSfu3FQvLDOVmXAnDHXrNLy7mpIhnVThciBb-vvypw,content-type=application/json], queryString=version=-1&sign=720163ab21ba4d1b670813c2918ba3d6&t=1591771465538, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/messages/unread, urlParam=, method=GET, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzI5NzQ1MjQsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzQsInZlcnNpb24iOiIxMjcwNjE0MDY0NTg5OTYzMzMwIiwic2lkIjoiMTA0MWI1ZmU5OTEwNDc1OTg4ZmE4ODFlOGUzOGYyZGEifQ.idmsVcKnZrWuX-WieinF8qJyGZZvLWaaHIGRBE_GIpIZl1u7RWdTlEXzVQUcOTtHW8sHZfdcagDYH3HcZ5D5Cw,content-type=application/json], queryString=version=-1&sign=338a9324ab22ec60e7b9cf5e7cb44932&t=1591772975824, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.GetMessagesUnread@4c70fda8]" name="afterClass" is-config="true" duration-ms="50" started-at="2020-06-10T14:44:26Z" finished-at="2020-06-10T14:44:26Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.GetMessagesUnread@4c70fda8]" name="afterClass" is-config="true" duration-ms="39" started-at="2020-06-10T15:09:36Z" finished-at="2020-06-10T15:09:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Teacher.GetMessagesUnread -->
-      <class name="com.xuehai.response.testCase.Teacher.PatchShieldsCancel">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchShieldsCancel@ae45eb6]" name="beforeClass" is-config="true" duration-ms="5" started-at="2020-06-10T14:44:28Z" finished-at="2020-06-10T14:44:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[src/test/resources/case.xml]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchShieldsCancel@ae45eb6]" name="action" duration-ms="111" started-at="2020-06-10T14:44:28Z" description="批量取消禁言" data-provider="data" finished-at="2020-06-10T14:44:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/shields/cancel, urlParam=, method=PATCH, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MTQiLCJzdWIiOiJwdGNzMiIsImNyZWF0ZWQiOjE1OTE3NzE0NjMxMzEsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjMsInZlcnNpb24iOiIxMjcwNjA3NzI1MzQ4MjU3ODAyIiwic2lkIjoiN2FiOGUxMDVmZDNhNDUwNjk4MmUxNjExMzA5NzYwZTkifQ.4ADAG1tgs38Vu6T70DkaKqRx3-nVNtz_C9uCWFQTyc5HkaqDezkmxDG0QcXMMbaCWSgNjay89OY4-kQ4GRpZOA,content-type=application/json], queryString=&sign=121ea5960064e812fb5286e64c833043&t=1591771468628, bodyData={"peerIds":[152417,152418,152580,152581,152422,152575,152576,152421,152579,152415,152412,152582,152420,152578,152416,152419,152577,152414,152574,152573]}, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchShieldsCancel@ae45eb6]" name="afterClass" is-config="true" duration-ms="31" started-at="2020-06-10T14:44:28Z" finished-at="2020-06-10T14:44:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.xuehai.response.testCase.Teacher.PatchShieldsCancel -->
       <class name="com.xuehai.response.testCase.Teacher.DeleteShieldNotes">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteShieldNotes@26653222]" name="beforeClass" is-config="true" duration-ms="2" started-at="2020-06-10T14:44:28Z" finished-at="2020-06-10T14:44:28Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteShieldNotes@26653222]" name="beforeClass" is-config="true" duration-ms="3" started-at="2020-06-10T15:09:38Z" finished-at="2020-06-10T15:09:38Z">
           <params>
             <param index="0">
               <value>
@@ -214,24 +186,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteShieldNotes@26653222]" name="action" duration-ms="21" started-at="2020-06-10T14:44:28Z" description="取消屏蔽发送便签" data-provider="data" finished-at="2020-06-10T14:44:28Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteShieldNotes@26653222]" name="action" duration-ms="20" started-at="2020-06-10T15:09:38Z" description="取消屏蔽发送便签" data-provider="data" finished-at="2020-06-10T15:09:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/shieldNotes/, urlParam=, method=DELETE, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MTQiLCJzdWIiOiJwdGNzMiIsImNyZWF0ZWQiOjE1OTE3NzE0NjMxMzEsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjMsInZlcnNpb24iOiIxMjcwNjA3NzI1MzQ4MjU3ODAyIiwic2lkIjoiN2FiOGUxMDVmZDNhNDUwNjk4MmUxNjExMzA5NzYwZTkifQ.4ADAG1tgs38Vu6T70DkaKqRx3-nVNtz_C9uCWFQTyc5HkaqDezkmxDG0QcXMMbaCWSgNjay89OY4-kQ4GRpZOA,content-type=application/json], queryString=peerIds=152412&sign=24f6be04c3f58e56bcfdbf27d5779a4c&t=1591771468417, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/shieldNotes/, urlParam=, method=DELETE, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MTQiLCJzdWIiOiJwdGNzMiIsImNyZWF0ZWQiOjE1OTE3NzI5NzM1MTYsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzMsInZlcnNpb24iOiIxMjcwNjE0MDYwMzYyMTA0ODYwIiwic2lkIjoiNmEyNzdkZjcyYWFkNGRhYzhiZTIyZTJlMDgwYjc5NzAifQ.6vwYIQBg-koeWIcsCdkxwctNhZJmmkJEw3w09M_qR9lSAkIGQ3_KOlmmHsPqohCHD86vWDZgLJUyGIQBkY1plQ,content-type=application/json], queryString=peerIds=152412&sign=44c704d57ecee8fcf3c703d2ad01b37a&t=1591772978563, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteShieldNotes@26653222]" name="afterClass" is-config="true" duration-ms="30" started-at="2020-06-10T14:44:28Z" finished-at="2020-06-10T14:44:28Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteShieldNotes@26653222]" name="afterClass" is-config="true" duration-ms="29" started-at="2020-06-10T15:09:38Z" finished-at="2020-06-10T15:09:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Teacher.DeleteShieldNotes -->
-      <class name="com.xuehai.response.testCase.Teacher.PatchGroupsSilence">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchGroupsSilence@61832929]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-06-10T14:44:27Z" finished-at="2020-06-10T14:44:27Z">
+      <class name="com.xuehai.response.testCase.Teacher.PatchShieldsCancel">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchShieldsCancel@ae45eb6]" name="beforeClass" is-config="true" duration-ms="5" started-at="2020-06-10T15:09:38Z" finished-at="2020-06-10T15:09:38Z">
           <params>
             <param index="0">
               <value>
@@ -242,41 +214,52 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchGroupsSilence@61832929]" name="afterClass" is-config="true" duration-ms="25" started-at="2020-06-10T14:44:27Z" finished-at="2020-06-10T14:44:27Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchShieldsCancel@ae45eb6]" name="action" duration-ms="37" started-at="2020-06-10T15:09:38Z" description="批量取消禁言" data-provider="data" finished-at="2020-06-10T15:09:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/shields/cancel, urlParam=, method=PATCH, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MTQiLCJzdWIiOiJwdGNzMiIsImNyZWF0ZWQiOjE1OTE3NzI5NzM1MTYsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzMsInZlcnNpb24iOiIxMjcwNjE0MDYwMzYyMTA0ODYwIiwic2lkIjoiNmEyNzdkZjcyYWFkNGRhYzhiZTIyZTJlMDgwYjc5NzAifQ.6vwYIQBg-koeWIcsCdkxwctNhZJmmkJEw3w09M_qR9lSAkIGQ3_KOlmmHsPqohCHD86vWDZgLJUyGIQBkY1plQ,content-type=application/json], queryString=&sign=5eec234a3bfd8ed1d7d398788a4b81b3&t=1591772978772, bodyData={"peerIds":[152417,152418,152580,152581,152422,152575,152576,152421,152579,152415,152412,152582,152420,152578,152416,152419,152577,152414,152574,152573]}, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- action -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchShieldsCancel@ae45eb6]" name="afterClass" is-config="true" duration-ms="38" started-at="2020-06-10T15:09:38Z" finished-at="2020-06-10T15:09:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.xuehai.response.testCase.Teacher.PatchShieldsCancel -->
+      <class name="com.xuehai.response.testCase.Teacher.PatchGroupsSilence">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchGroupsSilence@61832929]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-06-10T15:09:37Z" finished-at="2020-06-10T15:09:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[src/test/resources/case.xml]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchGroupsSilence@61832929]" name="action" duration-ms="34" started-at="2020-06-10T15:09:37Z" description="切换全群禁言" data-provider="data" finished-at="2020-06-10T15:09:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/groups/67487/silence, urlParam=, method=PATCH, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MTQiLCJzdWIiOiJwdGNzMiIsImNyZWF0ZWQiOjE1OTE3NzI5NzM1MTYsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzMsInZlcnNpb24iOiIxMjcwNjE0MDYwMzYyMTA0ODYwIiwic2lkIjoiNmEyNzdkZjcyYWFkNGRhYzhiZTIyZTJlMDgwYjc5NzAifQ.6vwYIQBg-koeWIcsCdkxwctNhZJmmkJEw3w09M_qR9lSAkIGQ3_KOlmmHsPqohCHD86vWDZgLJUyGIQBkY1plQ,content-type=application/json], queryString=&sign=fc7d8cad2dfd490864dea053359782f0&t=1591772977835, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- action -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchGroupsSilence@61832929]" name="afterClass" is-config="true" duration-ms="28" started-at="2020-06-10T15:09:37Z" finished-at="2020-06-10T15:09:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Teacher.PatchGroupsSilence -->
-      <class name="com.xuehai.response.testCase.Teacher.PatchShieldNotesCancel">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchShieldNotesCancel@59f99ea]" name="beforeClass" is-config="true" duration-ms="4" started-at="2020-06-10T14:44:28Z" finished-at="2020-06-10T14:44:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[src/test/resources/case.xml]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchShieldNotesCancel@59f99ea]" name="action" duration-ms="47" started-at="2020-06-10T14:44:28Z" description="匹配取消便签屏蔽名单" data-provider="data" finished-at="2020-06-10T14:44:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/shieldNotes/cancel, urlParam=, method=PATCH, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MTQiLCJzdWIiOiJwdGNzMiIsImNyZWF0ZWQiOjE1OTE3NzE0NjMxMzEsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjMsInZlcnNpb24iOiIxMjcwNjA3NzI1MzQ4MjU3ODAyIiwic2lkIjoiN2FiOGUxMDVmZDNhNDUwNjk4MmUxNjExMzA5NzYwZTkifQ.4ADAG1tgs38Vu6T70DkaKqRx3-nVNtz_C9uCWFQTyc5HkaqDezkmxDG0QcXMMbaCWSgNjay89OY4-kQ4GRpZOA,content-type=application/json], queryString=&sign=a7742d608f98bcfd638dc60c043c176c&t=1591771468773, bodyData={"peerIds":[152412,152414,152415,152416,152417,152418,152419,152420,152421,152422,152573,152574,152575,152576,152577,152578,152579,152580,152581,152582]}, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchShieldNotesCancel@59f99ea]" name="afterClass" is-config="true" duration-ms="26" started-at="2020-06-10T14:44:28Z" finished-at="2020-06-10T14:44:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.xuehai.response.testCase.Teacher.PatchShieldNotesCancel -->
       <class name="com.xuehai.response.testCase.Teacher.DeleteSessionsTop">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteSessionsTop@28d25987]" name="beforeClass" is-config="true" duration-ms="4" started-at="2020-06-10T14:44:26Z" finished-at="2020-06-10T14:44:26Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteSessionsTop@28d25987]" name="beforeClass" is-config="true" duration-ms="4" started-at="2020-06-10T15:09:37Z" finished-at="2020-06-10T15:09:37Z">
           <params>
             <param index="0">
               <value>
@@ -287,24 +270,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteSessionsTop@28d25987]" name="action" duration-ms="19" started-at="2020-06-10T14:44:26Z" description="取消置顶会话" data-provider="data" finished-at="2020-06-10T14:44:26Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteSessionsTop@28d25987]" name="action" duration-ms="30" started-at="2020-06-10T15:09:37Z" description="取消置顶会话" data-provider="data" finished-at="2020-06-10T15:09:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/sessions/152414/top, urlParam=, method=DELETE, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzE0NjQxNzIsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjQsInZlcnNpb24iOiIxMjcwNjA3NzI5NzE4NzIyNjExIiwic2lkIjoiNTZkMmEwNTMxNmRmNGMxZWFkYWNhNWNlYmJjNWE0ZWQifQ.wzsbCUUAwSerBkqBxMBV7-njbH6aUec_q3YWrq6s-bF0gSfu3FQvLDOVmXAnDHXrNLy7mpIhnVThciBb-vvypw,content-type=application/json], queryString=sessionType=SINGLE&sign=8ea609d23c2bfa64e544d62fe60d1243&t=1591771466894, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/sessions/152414/top, urlParam=, method=DELETE, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzI5NzQ1MjQsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzQsInZlcnNpb24iOiIxMjcwNjE0MDY0NTg5OTYzMzMwIiwic2lkIjoiMTA0MWI1ZmU5OTEwNDc1OTg4ZmE4ODFlOGUzOGYyZGEifQ.idmsVcKnZrWuX-WieinF8qJyGZZvLWaaHIGRBE_GIpIZl1u7RWdTlEXzVQUcOTtHW8sHZfdcagDYH3HcZ5D5Cw,content-type=application/json], queryString=sessionType=SINGLE&sign=ec5bc709b202ef14ceea2b7afefca468&t=1591772977177, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteSessionsTop@28d25987]" name="afterClass" is-config="true" duration-ms="42" started-at="2020-06-10T14:44:26Z" finished-at="2020-06-10T14:44:26Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteSessionsTop@28d25987]" name="afterClass" is-config="true" duration-ms="40" started-at="2020-06-10T15:09:37Z" finished-at="2020-06-10T15:09:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Teacher.DeleteSessionsTop -->
-      <class name="com.xuehai.response.testCase.Teacher.GetShieldNotes">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetShieldNotes@4b9e13df]" name="beforeClass" is-config="true" duration-ms="3" started-at="2020-06-10T14:44:24Z" finished-at="2020-06-10T14:44:24Z">
+      <class name="com.xuehai.response.testCase.Teacher.PatchShieldNotesCancel">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchShieldNotesCancel@59f99ea]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-06-10T15:09:38Z" finished-at="2020-06-10T15:09:38Z">
           <params>
             <param index="0">
               <value>
@@ -315,24 +298,52 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetShieldNotes@4b9e13df]" name="action" duration-ms="31" started-at="2020-06-10T14:44:24Z" description="增量获取屏蔽名单的变更" data-provider="data" finished-at="2020-06-10T14:44:24Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchShieldNotesCancel@59f99ea]" name="action" duration-ms="43" started-at="2020-06-10T15:09:38Z" description="匹配取消便签屏蔽名单" data-provider="data" finished-at="2020-06-10T15:09:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/shieldNotes/, urlParam=, method=GET, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzE0NjQxNzIsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjQsInZlcnNpb24iOiIxMjcwNjA3NzI5NzE4NzIyNjExIiwic2lkIjoiNTZkMmEwNTMxNmRmNGMxZWFkYWNhNWNlYmJjNWE0ZWQifQ.wzsbCUUAwSerBkqBxMBV7-njbH6aUec_q3YWrq6s-bF0gSfu3FQvLDOVmXAnDHXrNLy7mpIhnVThciBb-vvypw,content-type=application/json], queryString=version=1556155566572&sign=f2f78afd0d517f219fcb02dbc60b5117&t=1591771464721, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/shieldNotes/cancel, urlParam=, method=PATCH, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MTQiLCJzdWIiOiJwdGNzMiIsImNyZWF0ZWQiOjE1OTE3NzI5NzM1MTYsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzMsInZlcnNpb24iOiIxMjcwNjE0MDYwMzYyMTA0ODYwIiwic2lkIjoiNmEyNzdkZjcyYWFkNGRhYzhiZTIyZTJlMDgwYjc5NzAifQ.6vwYIQBg-koeWIcsCdkxwctNhZJmmkJEw3w09M_qR9lSAkIGQ3_KOlmmHsPqohCHD86vWDZgLJUyGIQBkY1plQ,content-type=application/json], queryString=&sign=7d55749bb99da65ea0f294d9e93b4210&t=1591772978848, bodyData={"peerIds":[152412,152414,152415,152416,152417,152418,152419,152420,152421,152422,152573,152574,152575,152576,152577,152578,152579,152580,152581,152582]}, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.GetShieldNotes@4b9e13df]" name="afterClass" is-config="true" duration-ms="42" started-at="2020-06-10T14:44:24Z" finished-at="2020-06-10T14:44:24Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchShieldNotesCancel@59f99ea]" name="afterClass" is-config="true" duration-ms="27" started-at="2020-06-10T15:09:38Z" finished-at="2020-06-10T15:09:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.xuehai.response.testCase.Teacher.PatchShieldNotesCancel -->
+      <class name="com.xuehai.response.testCase.Teacher.GetShieldNotes">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetShieldNotes@4b9e13df]" name="beforeClass" is-config="true" duration-ms="7" started-at="2020-06-10T15:09:34Z" finished-at="2020-06-10T15:09:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[src/test/resources/case.xml]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetShieldNotes@4b9e13df]" name="action" duration-ms="16" started-at="2020-06-10T15:09:34Z" description="增量获取屏蔽名单的变更" data-provider="data" finished-at="2020-06-10T15:09:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/shieldNotes/, urlParam=, method=GET, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzI5NzQ1MjQsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzQsInZlcnNpb24iOiIxMjcwNjE0MDY0NTg5OTYzMzMwIiwic2lkIjoiMTA0MWI1ZmU5OTEwNDc1OTg4ZmE4ODFlOGUzOGYyZGEifQ.idmsVcKnZrWuX-WieinF8qJyGZZvLWaaHIGRBE_GIpIZl1u7RWdTlEXzVQUcOTtHW8sHZfdcagDYH3HcZ5D5Cw,content-type=application/json], queryString=version=1556155566572&sign=f4a44e231bc5ec81131ed1ee49238d55&t=1591772974982, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- action -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.GetShieldNotes@4b9e13df]" name="afterClass" is-config="true" duration-ms="30" started-at="2020-06-10T15:09:34Z" finished-at="2020-06-10T15:09:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Teacher.GetShieldNotes -->
       <class name="com.xuehai.response.testCase.Teacher.PatchMessagesReadAck">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchMessagesReadAck@224edc67]" name="beforeClass" is-config="true" duration-ms="2" started-at="2020-06-10T14:44:26Z" finished-at="2020-06-10T14:44:26Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchMessagesReadAck@224edc67]" name="beforeClass" is-config="true" duration-ms="3" started-at="2020-06-10T15:09:36Z" finished-at="2020-06-10T15:09:36Z">
           <params>
             <param index="0">
               <value>
@@ -343,24 +354,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchMessagesReadAck@224edc67]" name="action" duration-ms="45" started-at="2020-06-10T14:44:26Z" description="确认已读消息" data-provider="data" finished-at="2020-06-10T14:44:26Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchMessagesReadAck@224edc67]" name="action" duration-ms="58" started-at="2020-06-10T15:09:36Z" description="确认已读消息" data-provider="data" finished-at="2020-06-10T15:09:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/sessions/152414/messages/44/readAck, urlParam=, method=PATCH, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzE0NjQxNzIsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjQsInZlcnNpb24iOiIxMjcwNjA3NzI5NzE4NzIyNjExIiwic2lkIjoiNTZkMmEwNTMxNmRmNGMxZWFkYWNhNWNlYmJjNWE0ZWQifQ.wzsbCUUAwSerBkqBxMBV7-njbH6aUec_q3YWrq6s-bF0gSfu3FQvLDOVmXAnDHXrNLy7mpIhnVThciBb-vvypw,content-type=application/json], queryString=sessionType=SINGLE&sign=6df05af16366493523d241056b712fb0&t=1591771466483, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/sessions/152414/messages/44/readAck, urlParam=, method=PATCH, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzI5NzQ1MjQsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzQsInZlcnNpb24iOiIxMjcwNjE0MDY0NTg5OTYzMzMwIiwic2lkIjoiMTA0MWI1ZmU5OTEwNDc1OTg4ZmE4ODFlOGUzOGYyZGEifQ.idmsVcKnZrWuX-WieinF8qJyGZZvLWaaHIGRBE_GIpIZl1u7RWdTlEXzVQUcOTtHW8sHZfdcagDYH3HcZ5D5Cw,content-type=application/json], queryString=sessionType=SINGLE&sign=167350eda2805471c3849c0bdfaf1319&t=1591772976725, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchMessagesReadAck@224edc67]" name="afterClass" is-config="true" duration-ms="65" started-at="2020-06-10T14:44:26Z" finished-at="2020-06-10T14:44:26Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchMessagesReadAck@224edc67]" name="afterClass" is-config="true" duration-ms="54" started-at="2020-06-10T15:09:36Z" finished-at="2020-06-10T15:09:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Teacher.PatchMessagesReadAck -->
       <class name="com.xuehai.response.testCase.Student.GetFriendsJudge">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Student.GetFriendsJudge@6767c1fc]" name="beforeClass" is-config="true" duration-ms="17" started-at="2020-06-10T14:44:23Z" finished-at="2020-06-10T14:44:23Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Student.GetFriendsJudge@6767c1fc]" name="beforeClass" is-config="true" duration-ms="17" started-at="2020-06-10T15:09:34Z" finished-at="2020-06-10T15:09:34Z">
           <params>
             <param index="0">
               <value>
@@ -371,24 +382,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Student.GetFriendsJudge@6767c1fc]" name="action" duration-ms="24" started-at="2020-06-10T14:44:23Z" description="是否好友" data-provider="data" finished-at="2020-06-10T14:44:23Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Student.GetFriendsJudge@6767c1fc]" name="action" duration-ms="29" started-at="2020-06-10T15:09:34Z" description="是否好友" data-provider="data" finished-at="2020-06-10T15:09:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152414/friends/152424/judge, urlParam=, method=GET, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MTQiLCJzdWIiOiJwdGNzMiIsImNyZWF0ZWQiOjE1OTE3NzE0NjMxMzEsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjMsInZlcnNpb24iOiIxMjcwNjA3NzI1MzQ4MjU3ODAyIiwic2lkIjoiN2FiOGUxMDVmZDNhNDUwNjk4MmUxNjExMzA5NzYwZTkifQ.4ADAG1tgs38Vu6T70DkaKqRx3-nVNtz_C9uCWFQTyc5HkaqDezkmxDG0QcXMMbaCWSgNjay89OY4-kQ4GRpZOA,content-type=application/json], queryString=&sign=3f6d764bfac47ed66c93f59a7901a881&t=1591771463748, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152414/friends/152424/judge, urlParam=, method=GET, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MTQiLCJzdWIiOiJwdGNzMiIsImNyZWF0ZWQiOjE1OTE3NzI5NzM1MTYsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzMsInZlcnNpb24iOiIxMjcwNjE0MDYwMzYyMTA0ODYwIiwic2lkIjoiNmEyNzdkZjcyYWFkNGRhYzhiZTIyZTJlMDgwYjc5NzAifQ.6vwYIQBg-koeWIcsCdkxwctNhZJmmkJEw3w09M_qR9lSAkIGQ3_KOlmmHsPqohCHD86vWDZgLJUyGIQBkY1plQ,content-type=application/json], queryString=&sign=3e9dc2f4271b24d63dc3ffefafc65eea&t=1591772974071, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Student.GetFriendsJudge@6767c1fc]" name="afterClass" is-config="true" duration-ms="65" started-at="2020-06-10T14:44:23Z" finished-at="2020-06-10T14:44:23Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Student.GetFriendsJudge@6767c1fc]" name="afterClass" is-config="true" duration-ms="49" started-at="2020-06-10T15:09:34Z" finished-at="2020-06-10T15:09:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Student.GetFriendsJudge -->
       <class name="com.xuehai.response.testCase.Teacher.GetFriendsRequests">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetFriendsRequests@1d057a39]" name="beforeClass" is-config="true" duration-ms="4" started-at="2020-06-10T14:44:25Z" finished-at="2020-06-10T14:44:25Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetFriendsRequests@1d057a39]" name="beforeClass" is-config="true" duration-ms="9" started-at="2020-06-10T15:09:35Z" finished-at="2020-06-10T15:09:35Z">
           <params>
             <param index="0">
               <value>
@@ -399,24 +410,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetFriendsRequests@1d057a39]" name="action" duration-ms="23" started-at="2020-06-10T14:44:25Z" description="获取加好友请求" data-provider="data" finished-at="2020-06-10T14:44:25Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetFriendsRequests@1d057a39]" name="action" duration-ms="18" started-at="2020-06-10T15:09:35Z" description="获取加好友请求" data-provider="data" finished-at="2020-06-10T15:09:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/friends/requests/, urlParam=, method=GET, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzE0NjQxNzIsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjQsInZlcnNpb24iOiIxMjcwNjA3NzI5NzE4NzIyNjExIiwic2lkIjoiNTZkMmEwNTMxNmRmNGMxZWFkYWNhNWNlYmJjNWE0ZWQifQ.wzsbCUUAwSerBkqBxMBV7-njbH6aUec_q3YWrq6s-bF0gSfu3FQvLDOVmXAnDHXrNLy7mpIhnVThciBb-vvypw,content-type=application/json], queryString=lastTime=0&sign=968c5aa2be2a51bc0096a828870a751b&t=1591771465391, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/friends/requests/, urlParam=, method=GET, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzI5NzQ1MjQsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzQsInZlcnNpb24iOiIxMjcwNjE0MDY0NTg5OTYzMzMwIiwic2lkIjoiMTA0MWI1ZmU5OTEwNDc1OTg4ZmE4ODFlOGUzOGYyZGEifQ.idmsVcKnZrWuX-WieinF8qJyGZZvLWaaHIGRBE_GIpIZl1u7RWdTlEXzVQUcOTtHW8sHZfdcagDYH3HcZ5D5Cw,content-type=application/json], queryString=lastTime=0&sign=eff8b21304fd8d7347445b5b4d65375d&t=1591772975679, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.GetFriendsRequests@1d057a39]" name="afterClass" is-config="true" duration-ms="40" started-at="2020-06-10T14:44:25Z" finished-at="2020-06-10T14:44:25Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.GetFriendsRequests@1d057a39]" name="afterClass" is-config="true" duration-ms="35" started-at="2020-06-10T15:09:35Z" finished-at="2020-06-10T15:09:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Teacher.GetFriendsRequests -->
       <class name="com.xuehai.response.testCase.Student.PostPlatformStudentLogin">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Student.PostPlatformStudentLogin@724af044]" name="beforeClass" is-config="true" duration-ms="107" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Student.PostPlatformStudentLogin@724af044]" name="beforeClass" is-config="true" duration-ms="90" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
@@ -427,7 +438,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Student.PostPlatformStudentLogin@724af044]" name="action" duration-ms="967" started-at="2020-06-10T14:44:22Z" description="平台用户登录(学生)" data-provider="data" finished-at="2020-06-10T14:44:23Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Student.PostPlatformStudentLogin@724af044]" name="action" duration-ms="776" started-at="2020-06-10T15:09:32Z" description="平台用户登录(学生)" data-provider="data" finished-at="2020-06-10T15:09:33Z">
           <params>
             <param index="0">
               <value>
@@ -440,7 +451,7 @@
         </test-method> <!-- action -->
       </class> <!-- com.xuehai.response.testCase.Student.PostPlatformStudentLogin -->
       <class name="com.xuehai.response.testCase.Teacher.PostGroupsbatch">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostGroupsbatch@18be83e4]" name="beforeClass" is-config="true" duration-ms="3" started-at="2020-06-10T14:44:24Z" finished-at="2020-06-10T14:44:24Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostGroupsbatch@18be83e4]" name="beforeClass" is-config="true" duration-ms="4" started-at="2020-06-10T15:09:34Z" finished-at="2020-06-10T15:09:34Z">
           <params>
             <param index="0">
               <value>
@@ -451,11 +462,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostGroupsbatch@18be83e4]" name="action" duration-ms="66" started-at="2020-06-10T14:44:24Z" description="获取群聊组" data-provider="data" finished-at="2020-06-10T14:44:24Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostGroupsbatch@18be83e4]" name="action" duration-ms="53" started-at="2020-06-10T15:09:34Z" description="获取群聊组" data-provider="data" finished-at="2020-06-10T15:09:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v2/users/152424/groups/batch, urlParam=, method=POST, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzE0NjQxNzIsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjQsInZlcnNpb24iOiIxMjcwNjA3NzI5NzE4NzIyNjExIiwic2lkIjoiNTZkMmEwNTMxNmRmNGMxZWFkYWNhNWNlYmJjNWE0ZWQifQ.wzsbCUUAwSerBkqBxMBV7-njbH6aUec_q3YWrq6s-bF0gSfu3FQvLDOVmXAnDHXrNLy7mpIhnVThciBb-vvypw,content-type=application/json], queryString=&sign=77a34d8f48e7ed4e6617de49daa31b33&t=1591771464522, bodyData={
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v2/users/152424/groups/batch, urlParam=, method=POST, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzI5NzQ1MjQsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzQsInZlcnNpb24iOiIxMjcwNjE0MDY0NTg5OTYzMzMwIiwic2lkIjoiMTA0MWI1ZmU5OTEwNDc1OTg4ZmE4ODFlOGUzOGYyZGEifQ.idmsVcKnZrWuX-WieinF8qJyGZZvLWaaHIGRBE_GIpIZl1u7RWdTlEXzVQUcOTtHW8sHZfdcagDYH3HcZ5D5Cw,content-type=application/json], queryString=&sign=594a3c21cff561e2b487a89bf6f2d1c8&t=1591772974815, bodyData={
 	"groupVersionList": [{
 		"groupId": 31380,
 		"version": 0
@@ -476,13 +487,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PostGroupsbatch@18be83e4]" name="afterClass" is-config="true" duration-ms="46" started-at="2020-06-10T14:44:24Z" finished-at="2020-06-10T14:44:24Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PostGroupsbatch@18be83e4]" name="afterClass" is-config="true" duration-ms="40" started-at="2020-06-10T15:09:34Z" finished-at="2020-06-10T15:09:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Teacher.PostGroupsbatch -->
       <class name="com.xuehai.response.testCase.Teacher.DeleteSessions">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteSessions@46d56d67]" name="beforeClass" is-config="true" duration-ms="3" started-at="2020-06-10T14:44:26Z" finished-at="2020-06-10T14:44:26Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteSessions@46d56d67]" name="beforeClass" is-config="true" duration-ms="5" started-at="2020-06-10T15:09:36Z" finished-at="2020-06-10T15:09:36Z">
           <params>
             <param index="0">
               <value>
@@ -493,24 +504,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteSessions@46d56d67]" name="action" duration-ms="13" started-at="2020-06-10T14:44:26Z" description="批量删除会话消息" data-provider="data" finished-at="2020-06-10T14:44:26Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteSessions@46d56d67]" name="action" duration-ms="22" started-at="2020-06-10T15:09:36Z" description="批量删除会话消息" data-provider="data" finished-at="2020-06-10T15:09:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/sessions, urlParam=, method=DELETE, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzE0NjQxNzIsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjQsInZlcnNpb24iOiIxMjcwNjA3NzI5NzE4NzIyNjExIiwic2lkIjoiNTZkMmEwNTMxNmRmNGMxZWFkYWNhNWNlYmJjNWE0ZWQifQ.wzsbCUUAwSerBkqBxMBV7-njbH6aUec_q3YWrq6s-bF0gSfu3FQvLDOVmXAnDHXrNLy7mpIhnVThciBb-vvypw,content-type=application/json], queryString=&sign=e43942bb2368e3b0a5c71aff43e33837&t=1591771466685, bodyData={"removeRecentSessionDTOList":[{"sessionId":"152412","sessionType":"SINGLE"}]}, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/sessions, urlParam=, method=DELETE, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzI5NzQ1MjQsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzQsInZlcnNpb24iOiIxMjcwNjE0MDY0NTg5OTYzMzMwIiwic2lkIjoiMTA0MWI1ZmU5OTEwNDc1OTg4ZmE4ODFlOGUzOGYyZGEifQ.idmsVcKnZrWuX-WieinF8qJyGZZvLWaaHIGRBE_GIpIZl1u7RWdTlEXzVQUcOTtHW8sHZfdcagDYH3HcZ5D5Cw,content-type=application/json], queryString=&sign=5a5f8c94017b034d81ddccc34caabbd3&t=1591772976926, bodyData={"removeRecentSessionDTOList":[{"sessionId":"152412","sessionType":"SINGLE"}]}, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteSessions@46d56d67]" name="afterClass" is-config="true" duration-ms="36" started-at="2020-06-10T14:44:26Z" finished-at="2020-06-10T14:44:26Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteSessions@46d56d67]" name="afterClass" is-config="true" duration-ms="44" started-at="2020-06-10T15:09:36Z" finished-at="2020-06-10T15:09:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Teacher.DeleteSessions -->
       <class name="com.xuehai.response.testCase.Student.PostFriendsRequests">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Student.PostFriendsRequests@4678c730]" name="beforeClass" is-config="true" duration-ms="28" started-at="2020-06-10T14:44:23Z" finished-at="2020-06-10T14:44:23Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Student.PostFriendsRequests@4678c730]" name="beforeClass" is-config="true" duration-ms="26" started-at="2020-06-10T15:09:33Z" finished-at="2020-06-10T15:09:33Z">
           <params>
             <param index="0">
               <value>
@@ -521,24 +532,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Student.PostFriendsRequests@4678c730]" name="action" duration-ms="139" started-at="2020-06-10T14:44:23Z" description="添加好友" data-provider="data" finished-at="2020-06-10T14:44:23Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Student.PostFriendsRequests@4678c730]" name="action" duration-ms="78" started-at="2020-06-10T15:09:33Z" description="添加好友" data-provider="data" finished-at="2020-06-10T15:09:33Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152414/friends/requests/, urlParam=, method=POST, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MTQiLCJzdWIiOiJwdGNzMiIsImNyZWF0ZWQiOjE1OTE3NzE0NjMxMzEsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjMsInZlcnNpb24iOiIxMjcwNjA3NzI1MzQ4MjU3ODAyIiwic2lkIjoiN2FiOGUxMDVmZDNhNDUwNjk4MmUxNjExMzA5NzYwZTkifQ.4ADAG1tgs38Vu6T70DkaKqRx3-nVNtz_C9uCWFQTyc5HkaqDezkmxDG0QcXMMbaCWSgNjay89OY4-kQ4GRpZOA,content-type=application/json], queryString=&sign=93a7ee7931518f443ff9403efa7f0ee5&t=1591771463258, bodyData={"friendIds":[152424]}, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152414/friends/requests/, urlParam=, method=POST, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MTQiLCJzdWIiOiJwdGNzMiIsImNyZWF0ZWQiOjE1OTE3NzI5NzM1MTYsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzMsInZlcnNpb24iOiIxMjcwNjE0MDYwMzYyMTA0ODYwIiwic2lkIjoiNmEyNzdkZjcyYWFkNGRhYzhiZTIyZTJlMDgwYjc5NzAifQ.6vwYIQBg-koeWIcsCdkxwctNhZJmmkJEw3w09M_qR9lSAkIGQ3_KOlmmHsPqohCHD86vWDZgLJUyGIQBkY1plQ,content-type=application/json], queryString=&sign=9e0ebd980b9bbe3af15e752259cf5d1b&t=1591772973634, bodyData={"friendIds":[152424]}, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Student.PostFriendsRequests@4678c730]" name="afterClass" is-config="true" duration-ms="333" started-at="2020-06-10T14:44:23Z" finished-at="2020-06-10T14:44:23Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Student.PostFriendsRequests@4678c730]" name="afterClass" is-config="true" duration-ms="340" started-at="2020-06-10T15:09:33Z" finished-at="2020-06-10T15:09:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Student.PostFriendsRequests -->
       <class name="com.xuehai.response.testCase.Teacher.PostUsersShields">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostUsersShields@3532ec19]" name="beforeClass" is-config="true" duration-ms="3" started-at="2020-06-10T14:44:28Z" finished-at="2020-06-10T14:44:28Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostUsersShields@3532ec19]" name="beforeClass" is-config="true" duration-ms="3" started-at="2020-06-10T15:09:38Z" finished-at="2020-06-10T15:09:38Z">
           <params>
             <param index="0">
               <value>
@@ -549,24 +560,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostUsersShields@3532ec19]" name="action" duration-ms="59" started-at="2020-06-10T14:44:28Z" description="屏蔽对方" data-provider="data" finished-at="2020-06-10T14:44:28Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostUsersShields@3532ec19]" name="action" duration-ms="58" started-at="2020-06-10T15:09:38Z" description="屏蔽对方" data-provider="data" finished-at="2020-06-10T15:09:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/shields/, urlParam=, method=POST, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MTQiLCJzdWIiOiJwdGNzMiIsImNyZWF0ZWQiOjE1OTE3NzE0NjMxMzEsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjMsInZlcnNpb24iOiIxMjcwNjA3NzI1MzQ4MjU3ODAyIiwic2lkIjoiN2FiOGUxMDVmZDNhNDUwNjk4MmUxNjExMzA5NzYwZTkifQ.4ADAG1tgs38Vu6T70DkaKqRx3-nVNtz_C9uCWFQTyc5HkaqDezkmxDG0QcXMMbaCWSgNjay89OY4-kQ4GRpZOA,content-type=application/json], queryString=&sign=1e03d3e3b8ec6a1670c4df41a435501e&t=1591771468473, bodyData={"peerIds":[152414]}, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/shields/, urlParam=, method=POST, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MTQiLCJzdWIiOiJwdGNzMiIsImNyZWF0ZWQiOjE1OTE3NzI5NzM1MTYsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzMsInZlcnNpb24iOiIxMjcwNjE0MDYwMzYyMTA0ODYwIiwic2lkIjoiNmEyNzdkZjcyYWFkNGRhYzhiZTIyZTJlMDgwYjc5NzAifQ.6vwYIQBg-koeWIcsCdkxwctNhZJmmkJEw3w09M_qR9lSAkIGQ3_KOlmmHsPqohCHD86vWDZgLJUyGIQBkY1plQ,content-type=application/json], queryString=&sign=619eeb8b68cfe031c819ede898481cb6&t=1591772978617, bodyData={"peerIds":[152414]}, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PostUsersShields@3532ec19]" name="afterClass" is-config="true" duration-ms="33" started-at="2020-06-10T14:44:28Z" finished-at="2020-06-10T14:44:28Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PostUsersShields@3532ec19]" name="afterClass" is-config="true" duration-ms="40" started-at="2020-06-10T15:09:38Z" finished-at="2020-06-10T15:09:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Teacher.PostUsersShields -->
       <class name="com.xuehai.response.testCase.Teacher.PatchSessionsTop">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchSessionsTop@59fa1d9b]" name="beforeClass" is-config="true" duration-ms="4" started-at="2020-06-10T14:44:26Z" finished-at="2020-06-10T14:44:26Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchSessionsTop@59fa1d9b]" name="beforeClass" is-config="true" duration-ms="3" started-at="2020-06-10T15:09:37Z" finished-at="2020-06-10T15:09:37Z">
           <params>
             <param index="0">
               <value>
@@ -577,398 +588,398 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchSessionsTop@59fa1d9b]" name="action" duration-ms="22" started-at="2020-06-10T14:44:26Z" description="置顶会话" data-provider="data" finished-at="2020-06-10T14:44:26Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchSessionsTop@59fa1d9b]" name="action" duration-ms="33" started-at="2020-06-10T15:09:37Z" description="置顶会话" data-provider="data" finished-at="2020-06-10T15:09:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/sessions/152414/top, urlParam=, method=PATCH, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzE0NjQxNzIsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjQsInZlcnNpb24iOiIxMjcwNjA3NzI5NzE4NzIyNjExIiwic2lkIjoiNTZkMmEwNTMxNmRmNGMxZWFkYWNhNWNlYmJjNWE0ZWQifQ.wzsbCUUAwSerBkqBxMBV7-njbH6aUec_q3YWrq6s-bF0gSfu3FQvLDOVmXAnDHXrNLy7mpIhnVThciBb-vvypw,content-type=application/json], queryString=sessionType=SINGLE&sign=e0559fe22b1e4f7c94de8e98689524f2&t=1591771466824, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/sessions/152414/top, urlParam=, method=PATCH, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzI5NzQ1MjQsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzQsInZlcnNpb24iOiIxMjcwNjE0MDY0NTg5OTYzMzMwIiwic2lkIjoiMTA0MWI1ZmU5OTEwNDc1OTg4ZmE4ODFlOGUzOGYyZGEifQ.idmsVcKnZrWuX-WieinF8qJyGZZvLWaaHIGRBE_GIpIZl1u7RWdTlEXzVQUcOTtHW8sHZfdcagDYH3HcZ5D5Cw,content-type=application/json], queryString=sessionType=SINGLE&sign=2bb84f795311191de4b3621d4a03194b&t=1591772977097, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchSessionsTop@59fa1d9b]" name="afterClass" is-config="true" duration-ms="44" started-at="2020-06-10T14:44:26Z" finished-at="2020-06-10T14:44:26Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchSessionsTop@59fa1d9b]" name="afterClass" is-config="true" duration-ms="42" started-at="2020-06-10T15:09:37Z" finished-at="2020-06-10T15:09:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Teacher.PatchSessionsTop -->
       <class name="com.xuehai.response.testCase.Teacher.DeleteFriends">
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteFriends@8bd1b6a]" name="beforeSuite" is-config="true" duration-ms="212" started-at="2020-06-10T14:44:21Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteFriends@8bd1b6a]" name="beforeSuite" is-config="true" duration-ms="281" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteSessions@46d56d67]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteSessions@46d56d67]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteSessionsTop@28d25987]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteSessionsTop@28d25987]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteShieldNotes@26653222]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteShieldNotes@26653222]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteUsersGroups@3ffc5af1]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteUsersGroups@3ffc5af1]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteUsersShields@68c4039c]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteUsersShields@68c4039c]" name="beforeSuite" is-config="true" duration-ms="4" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Student.GetFriendsJudge@6767c1fc]" name="beforeSuite" is-config="true" duration-ms="3" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Student.GetFriendsJudge@6767c1fc]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetFriendsRequests@1d057a39]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetFriendsRequests@1d057a39]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetGroupsSilence@29774679]" name="beforeSuite" is-config="true" duration-ms="3" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetGroupsSilence@29774679]" name="beforeSuite" is-config="true" duration-ms="11" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetMessagesUnread@4c70fda8]" name="beforeSuite" is-config="true" duration-ms="2" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetSessionMessages@475530b9]" name="beforeSuite" is-config="true" duration-ms="2" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetSessionMessages@475530b9]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetMessagesUnread@4c70fda8]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetSessionRecent@2b98378d]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetSessionRecent@2b98378d]" name="beforeSuite" is-config="true" duration-ms="2" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetShieldNotes@4b9e13df]" name="beforeSuite" is-config="true" duration-ms="2" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetShieldNotes@4b9e13df]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Student.GetShieldStudentNotes@29ee9faa]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Student.GetShieldStudentNotes@29ee9faa]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetUsersShields@cb5822]" name="beforeSuite" is-config="true" duration-ms="8" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetUsersShields@cb5822]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Student.GetshieldStudents@c038203]" name="beforeSuite" is-config="true" duration-ms="8" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Student.GetshieldStudents@c038203]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchGroupsSilence@61832929]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchGroupsSilence@61832929]" name="beforeSuite" is-config="true" duration-ms="2" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchMessagesReadAck@224edc67]" name="beforeSuite" is-config="true" duration-ms="2" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchMessagesReadAck@224edc67]" name="beforeSuite" is-config="true" duration-ms="2" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchMessagesRevoke@d8355a8]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchMessagesRevoke@d8355a8]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchSessionsTop@59fa1d9b]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchShieldNotesCancel@59f99ea]" name="beforeSuite" is-config="true" duration-ms="2" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchShieldNotesCancel@59f99ea]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchSessionsTop@59fa1d9b]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchUsersGroups@523884b2]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchShieldsCancel@ae45eb6]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchShieldsCancel@ae45eb6]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PatchUsersGroups@523884b2]" name="beforeSuite" is-config="true" duration-ms="3" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostClients@26be92ad]" name="beforeSuite" is-config="true" duration-ms="3" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostClients@26be92ad]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Student.PostFriendsRequests@4678c730]" name="beforeSuite" is-config="true" duration-ms="2" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostGroups@4501b7af]" name="beforeSuite" is-config="true" duration-ms="2" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostGroups@4501b7af]" name="beforeSuite" is-config="true" duration-ms="2" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Student.PostFriendsRequests@4678c730]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostGroupsbatch@18be83e4]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostGroupsbatch@18be83e4]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Student.PostPlatformStudentLogin@724af044]" name="beforeSuite" is-config="true" duration-ms="4" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostMessages@14acaea5]" name="beforeSuite" is-config="true" duration-ms="4" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostMessages@14acaea5]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Student.PostPlatformStudentLogin@724af044]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostPlatformTeacherLogin@cc285f4]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostPlatformTeacherLogin@cc285f4]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostShieldNotes@5e5792a0]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostShieldNotes@5e5792a0]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostUsersShields@3532ec19]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostUsersShields@3532ec19]" name="beforeSuite" is-config="true" duration-ms="4" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PutAgree@55f3ddb1]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PutAgree@55f3ddb1]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PutGroupsSilence@5b275dab]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2020-06-10T14:44:22Z" finished-at="2020-06-10T14:44:22Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.xuehai.response.testCase.Teacher.PutGroupsSilence@5b275dab]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2020-06-10T15:09:32Z" finished-at="2020-06-10T15:09:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c055c54]]>
+                <![CDATA[org.testng.TestRunner@35e5d0e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteFriends@8bd1b6a]" name="beforeClass" is-config="true" duration-ms="5" started-at="2020-06-10T14:44:24Z" finished-at="2020-06-10T14:44:24Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteFriends@8bd1b6a]" name="beforeClass" is-config="true" duration-ms="3" started-at="2020-06-10T15:09:34Z" finished-at="2020-06-10T15:09:34Z">
           <params>
             <param index="0">
               <value>
@@ -979,24 +990,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteFriends@8bd1b6a]" name="action" duration-ms="59" started-at="2020-06-10T14:44:24Z" description="删除好友" data-provider="data" finished-at="2020-06-10T14:44:24Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteFriends@8bd1b6a]" name="action" duration-ms="32" started-at="2020-06-10T15:09:34Z" description="删除好友" data-provider="data" finished-at="2020-06-10T15:09:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/friends/152414, urlParam=, method=DELETE, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzE0NjQxNzIsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjQsInZlcnNpb24iOiIxMjcwNjA3NzI5NzE4NzIyNjExIiwic2lkIjoiNTZkMmEwNTMxNmRmNGMxZWFkYWNhNWNlYmJjNWE0ZWQifQ.wzsbCUUAwSerBkqBxMBV7-njbH6aUec_q3YWrq6s-bF0gSfu3FQvLDOVmXAnDHXrNLy7mpIhnVThciBb-vvypw,content-type=application/json], queryString=&sign=b436080aa4dabdfb893e26b77fb1cab7&t=1591771464425, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/friends/152414, urlParam=, method=DELETE, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzI5NzQ1MjQsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzQsInZlcnNpb24iOiIxMjcwNjE0MDY0NTg5OTYzMzMwIiwic2lkIjoiMTA0MWI1ZmU5OTEwNDc1OTg4ZmE4ODFlOGUzOGYyZGEifQ.idmsVcKnZrWuX-WieinF8qJyGZZvLWaaHIGRBE_GIpIZl1u7RWdTlEXzVQUcOTtHW8sHZfdcagDYH3HcZ5D5Cw,content-type=application/json], queryString=&sign=3683cef10c2d9c4ccc32795a409eaa28&t=1591772974746, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteFriends@8bd1b6a]" name="afterClass" is-config="true" duration-ms="34" started-at="2020-06-10T14:44:24Z" finished-at="2020-06-10T14:44:24Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteFriends@8bd1b6a]" name="afterClass" is-config="true" duration-ms="32" started-at="2020-06-10T15:09:34Z" finished-at="2020-06-10T15:09:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Teacher.DeleteFriends -->
       <class name="com.xuehai.response.testCase.Teacher.GetGroupsSilence">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetGroupsSilence@29774679]" name="beforeClass" is-config="true" duration-ms="3" started-at="2020-06-10T14:44:27Z" finished-at="2020-06-10T14:44:27Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetGroupsSilence@29774679]" name="beforeClass" is-config="true" duration-ms="2" started-at="2020-06-10T15:09:37Z" finished-at="2020-06-10T15:09:37Z">
           <params>
             <param index="0">
               <value>
@@ -1007,52 +1018,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetGroupsSilence@29774679]" name="action" duration-ms="176" started-at="2020-06-10T14:44:27Z" description="获取群禁言消息" data-provider="data" finished-at="2020-06-10T14:44:27Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetGroupsSilence@29774679]" name="action" duration-ms="170" started-at="2020-06-10T15:09:37Z" description="获取群禁言消息" data-provider="data" finished-at="2020-06-10T15:09:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/groups/67484/silence, urlParam=, method=GET, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MTQiLCJzdWIiOiJwdGNzMiIsImNyZWF0ZWQiOjE1OTE3NzE0NjMxMzEsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjMsInZlcnNpb24iOiIxMjcwNjA3NzI1MzQ4MjU3ODAyIiwic2lkIjoiN2FiOGUxMDVmZDNhNDUwNjk4MmUxNjExMzA5NzYwZTkifQ.4ADAG1tgs38Vu6T70DkaKqRx3-nVNtz_C9uCWFQTyc5HkaqDezkmxDG0QcXMMbaCWSgNjay89OY4-kQ4GRpZOA,content-type=application/json], queryString=&sign=51402f6c7d43c3f7b2836a4a610d93e8&t=1591771467720, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/groups/67487/silence, urlParam=, method=GET, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MTQiLCJzdWIiOiJwdGNzMiIsImNyZWF0ZWQiOjE1OTE3NzI5NzM1MTYsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzMsInZlcnNpb24iOiIxMjcwNjE0MDYwMzYyMTA0ODYwIiwic2lkIjoiNmEyNzdkZjcyYWFkNGRhYzhiZTIyZTJlMDgwYjc5NzAifQ.6vwYIQBg-koeWIcsCdkxwctNhZJmmkJEw3w09M_qR9lSAkIGQ3_KOlmmHsPqohCHD86vWDZgLJUyGIQBkY1plQ,content-type=application/json], queryString=&sign=0bfd44b2d39b2ed3098c785dce03b530&t=1591772977899, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.GetGroupsSilence@29774679]" name="afterClass" is-config="true" duration-ms="45" started-at="2020-06-10T14:44:27Z" finished-at="2020-06-10T14:44:27Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.GetGroupsSilence@29774679]" name="afterClass" is-config="true" duration-ms="30" started-at="2020-06-10T15:09:38Z" finished-at="2020-06-10T15:09:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Teacher.GetGroupsSilence -->
-      <class name="com.xuehai.response.testCase.Teacher.DeleteUsersGroups">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteUsersGroups@3ffc5af1]" name="beforeClass" is-config="true" duration-ms="3" started-at="2020-06-10T14:44:27Z" finished-at="2020-06-10T14:44:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[src/test/resources/case.xml]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteUsersGroups@3ffc5af1]" name="action" duration-ms="366" started-at="2020-06-10T14:44:27Z" description="解散群聊" data-provider="data" finished-at="2020-06-10T14:44:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/groups/67484, urlParam=, method=DELETE, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MTQiLCJzdWIiOiJwdGNzMiIsImNyZWF0ZWQiOjE1OTE3NzE0NjMxMzEsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjMsInZlcnNpb24iOiIxMjcwNjA3NzI1MzQ4MjU3ODAyIiwic2lkIjoiN2FiOGUxMDVmZDNhNDUwNjk4MmUxNjExMzA5NzYwZTkifQ.4ADAG1tgs38Vu6T70DkaKqRx3-nVNtz_C9uCWFQTyc5HkaqDezkmxDG0QcXMMbaCWSgNjay89OY4-kQ4GRpZOA,content-type=application/json], queryString=&sign=3574f66e43341d0cef0a6fd8db32e5ce&t=1591771467944, bodyData=sync=fals, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteUsersGroups@3ffc5af1]" name="afterClass" is-config="true" duration-ms="46" started-at="2020-06-10T14:44:28Z" finished-at="2020-06-10T14:44:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.xuehai.response.testCase.Teacher.DeleteUsersGroups -->
       <class name="com.xuehai.response.testCase.Student.GetShieldStudentNotes">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Student.GetShieldStudentNotes@29ee9faa]" name="beforeClass" is-config="true" duration-ms="14" started-at="2020-06-10T14:44:23Z" finished-at="2020-06-10T14:44:23Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Student.GetShieldStudentNotes@29ee9faa]" name="beforeClass" is-config="true" duration-ms="11" started-at="2020-06-10T15:09:34Z" finished-at="2020-06-10T15:09:34Z">
           <params>
             <param index="0">
               <value>
@@ -1063,24 +1046,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Student.GetShieldStudentNotes@29ee9faa]" name="action" duration-ms="21" started-at="2020-06-10T14:44:23Z" description="学生获取屏蔽他老师列表" data-provider="data" finished-at="2020-06-10T14:44:23Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Student.GetShieldStudentNotes@29ee9faa]" name="action" duration-ms="19" started-at="2020-06-10T15:09:34Z" description="学生获取屏蔽他老师列表" data-provider="data" finished-at="2020-06-10T15:09:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152414/shieldStudentNotes/, urlParam=, method=GET, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MTQiLCJzdWIiOiJwdGNzMiIsImNyZWF0ZWQiOjE1OTE3NzE0NjMxMzEsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjMsInZlcnNpb24iOiIxMjcwNjA3NzI1MzQ4MjU3ODAyIiwic2lkIjoiN2FiOGUxMDVmZDNhNDUwNjk4MmUxNjExMzA5NzYwZTkifQ.4ADAG1tgs38Vu6T70DkaKqRx3-nVNtz_C9uCWFQTyc5HkaqDezkmxDG0QcXMMbaCWSgNjay89OY4-kQ4GRpZOA,content-type=application/json], queryString=version=0&sign=05ab3dbd95895901717d12cbe951e62c&t=1591771463851, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152414/shieldStudentNotes/, urlParam=, method=GET, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MTQiLCJzdWIiOiJwdGNzMiIsImNyZWF0ZWQiOjE1OTE3NzI5NzM1MTYsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzMsInZlcnNpb24iOiIxMjcwNjE0MDYwMzYyMTA0ODYwIiwic2lkIjoiNmEyNzdkZjcyYWFkNGRhYzhiZTIyZTJlMDgwYjc5NzAifQ.6vwYIQBg-koeWIcsCdkxwctNhZJmmkJEw3w09M_qR9lSAkIGQ3_KOlmmHsPqohCHD86vWDZgLJUyGIQBkY1plQ,content-type=application/json], queryString=version=0&sign=7dbf375e367501ed27c1d4e9a4c9201a&t=1591772974160, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Student.GetShieldStudentNotes@29ee9faa]" name="afterClass" is-config="true" duration-ms="49" started-at="2020-06-10T14:44:23Z" finished-at="2020-06-10T14:44:23Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Student.GetShieldStudentNotes@29ee9faa]" name="afterClass" is-config="true" duration-ms="36" started-at="2020-06-10T15:09:34Z" finished-at="2020-06-10T15:09:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Student.GetShieldStudentNotes -->
       <class name="com.xuehai.response.testCase.Student.GetshieldStudents">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Student.GetshieldStudents@c038203]" name="beforeClass" is-config="true" duration-ms="9" started-at="2020-06-10T14:44:23Z" finished-at="2020-06-10T14:44:23Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Student.GetshieldStudents@c038203]" name="beforeClass" is-config="true" duration-ms="7" started-at="2020-06-10T15:09:34Z" finished-at="2020-06-10T15:09:34Z">
           <params>
             <param index="0">
               <value>
@@ -1091,24 +1074,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Student.GetshieldStudents@c038203]" name="action" duration-ms="30" started-at="2020-06-10T14:44:23Z" description="学生获取屏蔽他的老师列表" data-provider="data" finished-at="2020-06-10T14:44:23Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Student.GetshieldStudents@c038203]" name="action" duration-ms="17" started-at="2020-06-10T15:09:34Z" description="学生获取屏蔽他的老师列表" data-provider="data" finished-at="2020-06-10T15:09:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152414/shieldStudents/, urlParam=, method=GET, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MTQiLCJzdWIiOiJwdGNzMiIsImNyZWF0ZWQiOjE1OTE3NzE0NjMxMzEsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjMsInZlcnNpb24iOiIxMjcwNjA3NzI1MzQ4MjU3ODAyIiwic2lkIjoiN2FiOGUxMDVmZDNhNDUwNjk4MmUxNjExMzA5NzYwZTkifQ.4ADAG1tgs38Vu6T70DkaKqRx3-nVNtz_C9uCWFQTyc5HkaqDezkmxDG0QcXMMbaCWSgNjay89OY4-kQ4GRpZOA,content-type=application/json], queryString=version=0&sign=0c039a73acff988368e18f4e3ee4699e&t=1591771463930, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152414/shieldStudents/, urlParam=, method=GET, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MTQiLCJzdWIiOiJwdGNzMiIsImNyZWF0ZWQiOjE1OTE3NzI5NzM1MTYsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzMsInZlcnNpb24iOiIxMjcwNjE0MDYwMzYyMTA0ODYwIiwic2lkIjoiNmEyNzdkZjcyYWFkNGRhYzhiZTIyZTJlMDgwYjc5NzAifQ.6vwYIQBg-koeWIcsCdkxwctNhZJmmkJEw3w09M_qR9lSAkIGQ3_KOlmmHsPqohCHD86vWDZgLJUyGIQBkY1plQ,content-type=application/json], queryString=version=0&sign=932b9f44743b44720588651d09182584&t=1591772974223, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Student.GetshieldStudents@c038203]" name="afterClass" is-config="true" duration-ms="49" started-at="2020-06-10T14:44:23Z" finished-at="2020-06-10T14:44:24Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Student.GetshieldStudents@c038203]" name="afterClass" is-config="true" duration-ms="64" started-at="2020-06-10T15:09:34Z" finished-at="2020-06-10T15:09:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Student.GetshieldStudents -->
-      <class name="com.xuehai.response.testCase.Teacher.PostMessages">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostMessages@14acaea5]" name="beforeClass" is-config="true" duration-ms="2" started-at="2020-06-10T14:44:26Z" finished-at="2020-06-10T14:44:26Z">
+      <class name="com.xuehai.response.testCase.Teacher.DeleteUsersGroups">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteUsersGroups@3ffc5af1]" name="beforeClass" is-config="true" duration-ms="2" started-at="2020-06-10T15:09:38Z" finished-at="2020-06-10T15:09:38Z">
           <params>
             <param index="0">
               <value>
@@ -1119,24 +1102,52 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostMessages@14acaea5]" name="action" duration-ms="52" started-at="2020-06-10T14:44:26Z" description="发送消息" data-provider="data" finished-at="2020-06-10T14:44:26Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteUsersGroups@3ffc5af1]" name="action" duration-ms="370" started-at="2020-06-10T15:09:38Z" description="解散群聊" data-provider="data" finished-at="2020-06-10T15:09:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/sessions/152414/messages/, urlParam=, method=POST, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzE0NjQxNzIsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjQsInZlcnNpb24iOiIxMjcwNjA3NzI5NzE4NzIyNjExIiwic2lkIjoiNTZkMmEwNTMxNmRmNGMxZWFkYWNhNWNlYmJjNWE0ZWQifQ.wzsbCUUAwSerBkqBxMBV7-njbH6aUec_q3YWrq6s-bF0gSfu3FQvLDOVmXAnDHXrNLy7mpIhnVThciBb-vvypw,content-type=application/json], queryString=&sign=7a9aa446d2ef91eeaa03f146c59e000c&t=1591771466596, bodyData={"msgContent":"111","msgType":"SINGLE_TEXT","createTime":0,"msgId":0}, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/groups/67487, urlParam=, method=DELETE, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MTQiLCJzdWIiOiJwdGNzMiIsImNyZWF0ZWQiOjE1OTE3NzI5NzM1MTYsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzMsInZlcnNpb24iOiIxMjcwNjE0MDYwMzYyMTA0ODYwIiwic2lkIjoiNmEyNzdkZjcyYWFkNGRhYzhiZTIyZTJlMDgwYjc5NzAifQ.6vwYIQBg-koeWIcsCdkxwctNhZJmmkJEw3w09M_qR9lSAkIGQ3_KOlmmHsPqohCHD86vWDZgLJUyGIQBkY1plQ,content-type=application/json], queryString=&sign=7c809bd7909026f7cac0eb52a2ab3a23&t=1591772978101, bodyData=sync=fals, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PostMessages@14acaea5]" name="afterClass" is-config="true" duration-ms="32" started-at="2020-06-10T14:44:26Z" finished-at="2020-06-10T14:44:26Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.DeleteUsersGroups@3ffc5af1]" name="afterClass" is-config="true" duration-ms="30" started-at="2020-06-10T15:09:38Z" finished-at="2020-06-10T15:09:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.xuehai.response.testCase.Teacher.DeleteUsersGroups -->
+      <class name="com.xuehai.response.testCase.Teacher.PostMessages">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostMessages@14acaea5]" name="beforeClass" is-config="true" duration-ms="5" started-at="2020-06-10T15:09:36Z" finished-at="2020-06-10T15:09:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[src/test/resources/case.xml]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostMessages@14acaea5]" name="action" duration-ms="46" started-at="2020-06-10T15:09:36Z" description="发送消息" data-provider="data" finished-at="2020-06-10T15:09:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/sessions/152414/messages/, urlParam=, method=POST, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzI5NzQ1MjQsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzQsInZlcnNpb24iOiIxMjcwNjE0MDY0NTg5OTYzMzMwIiwic2lkIjoiMTA0MWI1ZmU5OTEwNDc1OTg4ZmE4ODFlOGUzOGYyZGEifQ.idmsVcKnZrWuX-WieinF8qJyGZZvLWaaHIGRBE_GIpIZl1u7RWdTlEXzVQUcOTtHW8sHZfdcagDYH3HcZ5D5Cw,content-type=application/json], queryString=&sign=4ca9a23c8124d86b31121c5470309992&t=1591772976843, bodyData={"msgContent":"111","msgType":"SINGLE_TEXT","createTime":0,"msgId":0}, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- action -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PostMessages@14acaea5]" name="afterClass" is-config="true" duration-ms="32" started-at="2020-06-10T15:09:36Z" finished-at="2020-06-10T15:09:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Teacher.PostMessages -->
       <class name="com.xuehai.response.testCase.Teacher.PostGroups">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostGroups@4501b7af]" name="beforeClass" is-config="true" duration-ms="4" started-at="2020-06-10T14:44:26Z" finished-at="2020-06-10T14:44:26Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostGroups@4501b7af]" name="beforeClass" is-config="true" duration-ms="3" started-at="2020-06-10T15:09:37Z" finished-at="2020-06-10T15:09:37Z">
           <params>
             <param index="0">
               <value>
@@ -1147,24 +1158,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostGroups@4501b7af]" name="action" duration-ms="542" started-at="2020-06-10T14:44:26Z" description="创建群组" data-provider="data" finished-at="2020-06-10T14:44:27Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostGroups@4501b7af]" name="action" duration-ms="415" started-at="2020-06-10T15:09:37Z" description="创建群组" data-provider="data" finished-at="2020-06-10T15:09:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/groups/, urlParam=, method=POST, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzE0NjQxNzIsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjQsInZlcnNpb24iOiIxMjcwNjA3NzI5NzE4NzIyNjExIiwic2lkIjoiNTZkMmEwNTMxNmRmNGMxZWFkYWNhNWNlYmJjNWE0ZWQifQ.wzsbCUUAwSerBkqBxMBV7-njbH6aUec_q3YWrq6s-bF0gSfu3FQvLDOVmXAnDHXrNLy7mpIhnVThciBb-vvypw,content-type=application/json], queryString=&sign=e1a190c20ccbe5f909248fd8375be6fc&t=1591771466960, bodyData={"members":[152424,152425,152569],"name":"欧阳锋、殷天正","tags":[{"key":"groupType","value":"2"}],"type":"TMP","creator":152424}, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/groups/, urlParam=, method=POST, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzI5NzQ1MjQsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzQsInZlcnNpb24iOiIxMjcwNjE0MDY0NTg5OTYzMzMwIiwic2lkIjoiMTA0MWI1ZmU5OTEwNDc1OTg4ZmE4ODFlOGUzOGYyZGEifQ.idmsVcKnZrWuX-WieinF8qJyGZZvLWaaHIGRBE_GIpIZl1u7RWdTlEXzVQUcOTtHW8sHZfdcagDYH3HcZ5D5Cw,content-type=application/json], queryString=&sign=21ae627016ca0446838e2887cf35de52&t=1591772977250, bodyData={"members":[152424,152425,152569],"name":"欧阳锋、殷天正","tags":[{"key":"groupType","value":"2"}],"type":"TMP","creator":152424}, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PostGroups@4501b7af]" name="afterClass" is-config="true" duration-ms="66" started-at="2020-06-10T14:44:27Z" finished-at="2020-06-10T14:44:27Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PostGroups@4501b7af]" name="afterClass" is-config="true" duration-ms="41" started-at="2020-06-10T15:09:37Z" finished-at="2020-06-10T15:09:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Teacher.PostGroups -->
       <class name="com.xuehai.response.testCase.Teacher.GetSessionRecent">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetSessionRecent@2b98378d]" name="beforeClass" is-config="true" duration-ms="3" started-at="2020-06-10T14:44:24Z" finished-at="2020-06-10T14:44:24Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetSessionRecent@2b98378d]" name="beforeClass" is-config="true" duration-ms="3" started-at="2020-06-10T15:09:35Z" finished-at="2020-06-10T15:09:35Z">
           <params>
             <param index="0">
               <value>
@@ -1175,24 +1186,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetSessionRecent@2b98378d]" name="action" duration-ms="480" started-at="2020-06-10T14:44:24Z" description="获取最近联系人会话列表" data-provider="data" finished-at="2020-06-10T14:44:25Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetSessionRecent@2b98378d]" name="action" duration-ms="515" started-at="2020-06-10T15:09:35Z" description="获取最近联系人会话列表" data-provider="data" finished-at="2020-06-10T15:09:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/sessions/recent, urlParam=, method=GET, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzE0NjQxNzIsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjQsInZlcnNpb24iOiIxMjcwNjA3NzI5NzE4NzIyNjExIiwic2lkIjoiNTZkMmEwNTMxNmRmNGMxZWFkYWNhNWNlYmJjNWE0ZWQifQ.wzsbCUUAwSerBkqBxMBV7-njbH6aUec_q3YWrq6s-bF0gSfu3FQvLDOVmXAnDHXrNLy7mpIhnVThciBb-vvypw,content-type=application/json], queryString=lastTime=1558513009336&sign=b30c5ea3f38f414626d49c657044c106&t=1591771464799, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/sessions/recent, urlParam=, method=GET, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzI5NzQ1MjQsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzQsInZlcnNpb24iOiIxMjcwNjE0MDY0NTg5OTYzMzMwIiwic2lkIjoiMTA0MWI1ZmU5OTEwNDc1OTg4ZmE4ODFlOGUzOGYyZGEifQ.idmsVcKnZrWuX-WieinF8qJyGZZvLWaaHIGRBE_GIpIZl1u7RWdTlEXzVQUcOTtHW8sHZfdcagDYH3HcZ5D5Cw,content-type=application/json], queryString=lastTime=1558513009336&sign=97aaeda87669ee4ec6863ed49cdf817b&t=1591772975030, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.GetSessionRecent@2b98378d]" name="afterClass" is-config="true" duration-ms="37" started-at="2020-06-10T14:44:25Z" finished-at="2020-06-10T14:44:25Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.GetSessionRecent@2b98378d]" name="afterClass" is-config="true" duration-ms="51" started-at="2020-06-10T15:09:35Z" finished-at="2020-06-10T15:09:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Teacher.GetSessionRecent -->
       <class name="com.xuehai.response.testCase.Teacher.PostShieldNotes">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostShieldNotes@5e5792a0]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-06-10T14:44:28Z" finished-at="2020-06-10T14:44:28Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostShieldNotes@5e5792a0]" name="beforeClass" is-config="true" duration-ms="2" started-at="2020-06-10T15:09:38Z" finished-at="2020-06-10T15:09:38Z">
           <params>
             <param index="0">
               <value>
@@ -1203,24 +1214,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostShieldNotes@5e5792a0]" name="action" duration-ms="25" started-at="2020-06-10T14:44:28Z" description="屏蔽发送便签" data-provider="data" finished-at="2020-06-10T14:44:28Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostShieldNotes@5e5792a0]" name="action" duration-ms="26" started-at="2020-06-10T15:09:38Z" description="屏蔽发送便签" data-provider="data" finished-at="2020-06-10T15:09:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/shieldNotes/, urlParam=, method=POST, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MTQiLCJzdWIiOiJwdGNzMiIsImNyZWF0ZWQiOjE1OTE3NzE0NjMxMzEsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjMsInZlcnNpb24iOiIxMjcwNjA3NzI1MzQ4MjU3ODAyIiwic2lkIjoiN2FiOGUxMDVmZDNhNDUwNjk4MmUxNjExMzA5NzYwZTkifQ.4ADAG1tgs38Vu6T70DkaKqRx3-nVNtz_C9uCWFQTyc5HkaqDezkmxDG0QcXMMbaCWSgNjay89OY4-kQ4GRpZOA,content-type=application/json], queryString=&sign=fa5eb8fd9d054463fb6b9e34735d154c&t=1591771468358, bodyData={"peerIds":[152412]}, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/shieldNotes/, urlParam=, method=POST, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MTQiLCJzdWIiOiJwdGNzMiIsImNyZWF0ZWQiOjE1OTE3NzI5NzM1MTYsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzMsInZlcnNpb24iOiIxMjcwNjE0MDYwMzYyMTA0ODYwIiwic2lkIjoiNmEyNzdkZjcyYWFkNGRhYzhiZTIyZTJlMDgwYjc5NzAifQ.6vwYIQBg-koeWIcsCdkxwctNhZJmmkJEw3w09M_qR9lSAkIGQ3_KOlmmHsPqohCHD86vWDZgLJUyGIQBkY1plQ,content-type=application/json], queryString=&sign=e34b410486c2d5070061eaa505b88722&t=1591772978505, bodyData={"peerIds":[152412]}, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PostShieldNotes@5e5792a0]" name="afterClass" is-config="true" duration-ms="30" started-at="2020-06-10T14:44:28Z" finished-at="2020-06-10T14:44:28Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PostShieldNotes@5e5792a0]" name="afterClass" is-config="true" duration-ms="29" started-at="2020-06-10T15:09:38Z" finished-at="2020-06-10T15:09:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Teacher.PostShieldNotes -->
       <class name="com.xuehai.response.testCase.Teacher.GetUsersShields">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetUsersShields@cb5822]" name="beforeClass" is-config="true" duration-ms="11" started-at="2020-06-10T14:44:24Z" finished-at="2020-06-10T14:44:24Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetUsersShields@cb5822]" name="beforeClass" is-config="true" duration-ms="6" started-at="2020-06-10T15:09:34Z" finished-at="2020-06-10T15:09:34Z">
           <params>
             <param index="0">
               <value>
@@ -1231,24 +1242,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetUsersShields@cb5822]" name="action" duration-ms="27" started-at="2020-06-10T14:44:24Z" description="增量获取屏蔽名单变更" data-provider="data" finished-at="2020-06-10T14:44:24Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.GetUsersShields@cb5822]" name="action" duration-ms="17" started-at="2020-06-10T15:09:34Z" description="增量获取屏蔽名单变更" data-provider="data" finished-at="2020-06-10T15:09:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/shields/, urlParam=, method=GET, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzE0NjQxNzIsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjQsInZlcnNpb24iOiIxMjcwNjA3NzI5NzE4NzIyNjExIiwic2lkIjoiNTZkMmEwNTMxNmRmNGMxZWFkYWNhNWNlYmJjNWE0ZWQifQ.wzsbCUUAwSerBkqBxMBV7-njbH6aUec_q3YWrq6s-bF0gSfu3FQvLDOVmXAnDHXrNLy7mpIhnVThciBb-vvypw,content-type=application/json], queryString=version=1558079165661&sign=c93f7ae4f0a209a9865648a0bff41881&t=1591771464645, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/shields/, urlParam=, method=GET, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzI5NzQ1MjQsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzQsInZlcnNpb24iOiIxMjcwNjE0MDY0NTg5OTYzMzMwIiwic2lkIjoiMTA0MWI1ZmU5OTEwNDc1OTg4ZmE4ODFlOGUzOGYyZGEifQ.idmsVcKnZrWuX-WieinF8qJyGZZvLWaaHIGRBE_GIpIZl1u7RWdTlEXzVQUcOTtHW8sHZfdcagDYH3HcZ5D5Cw,content-type=application/json], queryString=version=1558079165661&sign=446551792c3490f8a3f6cc8efe6cffe5&t=1591772974914, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.GetUsersShields@cb5822]" name="afterClass" is-config="true" duration-ms="46" started-at="2020-06-10T14:44:24Z" finished-at="2020-06-10T14:44:24Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.GetUsersShields@cb5822]" name="afterClass" is-config="true" duration-ms="41" started-at="2020-06-10T15:09:34Z" finished-at="2020-06-10T15:09:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Teacher.GetUsersShields -->
       <class name="com.xuehai.response.testCase.Teacher.PostClients">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostClients@26be92ad]" name="beforeClass" is-config="true" duration-ms="3" started-at="2020-06-10T14:44:25Z" finished-at="2020-06-10T14:44:25Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostClients@26be92ad]" name="beforeClass" is-config="true" duration-ms="4" started-at="2020-06-10T15:09:35Z" finished-at="2020-06-10T15:09:35Z">
           <params>
             <param index="0">
               <value>
@@ -1259,11 +1270,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostClients@26be92ad]" name="action" duration-ms="32" started-at="2020-06-10T14:44:25Z" description="用户注册客户端" data-provider="data" finished-at="2020-06-10T14:44:25Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostClients@26be92ad]" name="action" duration-ms="18" started-at="2020-06-10T15:09:35Z" description="用户注册客户端" data-provider="data" finished-at="2020-06-10T15:09:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/clients/, urlParam=, method=POST, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzE0NjQxNzIsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjQsInZlcnNpb24iOiIxMjcwNjA3NzI5NzE4NzIyNjExIiwic2lkIjoiNTZkMmEwNTMxNmRmNGMxZWFkYWNhNWNlYmJjNWE0ZWQifQ.wzsbCUUAwSerBkqBxMBV7-njbH6aUec_q3YWrq6s-bF0gSfu3FQvLDOVmXAnDHXrNLy7mpIhnVThciBb-vvypw,content-type=application/json], queryString=&sign=5003f6b5725568effc9913686c692afa&t=1591771465457, bodyData={
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/clients/, urlParam=, method=POST, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzI5NzQ1MjQsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzQsInZlcnNpb24iOiIxMjcwNjE0MDY0NTg5OTYzMzMwIiwic2lkIjoiMTA0MWI1ZmU5OTEwNDc1OTg4ZmE4ODFlOGUzOGYyZGEifQ.idmsVcKnZrWuX-WieinF8qJyGZZvLWaaHIGRBE_GIpIZl1u7RWdTlEXzVQUcOTtHW8sHZfdcagDYH3HcZ5D5Cw,content-type=application/json], queryString=&sign=735bf439b5c7b54c712e0d1611916161&t=1591772975738, bodyData={
 	"clientId": "",
 	"deviceId": "359675060144777",
 	"versionName": "v1.10.9.20190524",
@@ -1275,13 +1286,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PostClients@26be92ad]" name="afterClass" is-config="true" duration-ms="42" started-at="2020-06-10T14:44:25Z" finished-at="2020-06-10T14:44:25Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PostClients@26be92ad]" name="afterClass" is-config="true" duration-ms="58" started-at="2020-06-10T15:09:35Z" finished-at="2020-06-10T15:09:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Teacher.PostClients -->
       <class name="com.xuehai.response.testCase.Teacher.PutAgree">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PutAgree@55f3ddb1]" name="beforeClass" is-config="true" duration-ms="7" started-at="2020-06-10T14:44:24Z" finished-at="2020-06-10T14:44:24Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PutAgree@55f3ddb1]" name="beforeClass" is-config="true" duration-ms="5" started-at="2020-06-10T15:09:34Z" finished-at="2020-06-10T15:09:34Z">
           <params>
             <param index="0">
               <value>
@@ -1292,24 +1303,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PutAgree@55f3ddb1]" name="action" duration-ms="74" started-at="2020-06-10T14:44:24Z" description="通过加好友请求" data-provider="data" finished-at="2020-06-10T14:44:24Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PutAgree@55f3ddb1]" name="action" duration-ms="52" started-at="2020-06-10T15:09:34Z" description="通过加好友请求" data-provider="data" finished-at="2020-06-10T15:09:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/friends/requests/4560/agree, urlParam=, method=PUT, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzE0NjQxNzIsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzYyNjQsInZlcnNpb24iOiIxMjcwNjA3NzI5NzE4NzIyNjExIiwic2lkIjoiNTZkMmEwNTMxNmRmNGMxZWFkYWNhNWNlYmJjNWE0ZWQifQ.wzsbCUUAwSerBkqBxMBV7-njbH6aUec_q3YWrq6s-bF0gSfu3FQvLDOVmXAnDHXrNLy7mpIhnVThciBb-vvypw,content-type=application/json], queryString=&sign=8ca6a0cb1c407e87b309ace1058d8aef&t=1591771464298, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
+                <![CDATA[Entity [id=case1, description=正常数据, domain=http://192.168.10.17:8084, url=/api/v1/users/152424/friends/requests/4563/agree, urlParam=, method=PUT, header=[Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOiIxNTI0MjQiLCJzdWIiOiJwdGxzMyIsImNyZWF0ZWQiOjE1OTE3NzI5NzQ1MjQsInJlcGVhdCI6ZmFsc2UsImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1OTIzNzc3NzQsInZlcnNpb24iOiIxMjcwNjE0MDY0NTg5OTYzMzMwIiwic2lkIjoiMTA0MWI1ZmU5OTEwNDc1OTg4ZmE4ODFlOGUzOGYyZGEifQ.idmsVcKnZrWuX-WieinF8qJyGZZvLWaaHIGRBE_GIpIZl1u7RWdTlEXzVQUcOTtHW8sHZfdcagDYH3HcZ5D5Cw,content-type=application/json], queryString=&sign=9e7b6d6e32e9524e51c5362b2378ab14&t=1591772974644, bodyData=, assertion={"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}, authToken=null, sign=false, mock=null]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PutAgree@55f3ddb1]" name="afterClass" is-config="true" duration-ms="47" started-at="2020-06-10T14:44:24Z" finished-at="2020-06-10T14:44:24Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PutAgree@55f3ddb1]" name="afterClass" is-config="true" duration-ms="45" started-at="2020-06-10T15:09:34Z" finished-at="2020-06-10T15:09:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.xuehai.response.testCase.Teacher.PutAgree -->
       <class name="com.xuehai.response.testCase.Teacher.PostPlatformTeacherLogin">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostPlatformTeacherLogin@cc285f4]" name="beforeClass" is-config="true" duration-ms="3" started-at="2020-06-10T14:44:24Z" finished-at="2020-06-10T14:44:24Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostPlatformTeacherLogin@cc285f4]" name="beforeClass" is-config="true" duration-ms="7" started-at="2020-06-10T15:09:34Z" finished-at="2020-06-10T15:09:34Z">
           <params>
             <param index="0">
               <value>
@@ -1320,7 +1331,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostPlatformTeacherLogin@cc285f4]" name="action" duration-ms="211" started-at="2020-06-10T14:44:24Z" description="平台用户登录" data-provider="data" finished-at="2020-06-10T14:44:24Z">
+        <test-method status="PASS" signature="action(com.xuehai.model.Entity)[pri:0, instance:com.xuehai.response.testCase.Teacher.PostPlatformTeacherLogin@cc285f4]" name="action" duration-ms="275" started-at="2020-06-10T15:09:34Z" description="平台用户登录" data-provider="data" finished-at="2020-06-10T15:09:34Z">
           <params>
             <param index="0">
               <value>
@@ -1332,7 +1343,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- action -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PostPlatformTeacherLogin@cc285f4]" name="afterClass" is-config="true" duration-ms="66" started-at="2020-06-10T14:44:24Z" finished-at="2020-06-10T14:44:24Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.xuehai.response.testCase.Teacher.PostPlatformTeacherLogin@cc285f4]" name="afterClass" is-config="true" duration-ms="49" started-at="2020-06-10T15:09:34Z" finished-at="2020-06-10T15:09:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
