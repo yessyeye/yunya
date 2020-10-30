@@ -96,42 +96,6 @@ public class BaseTest {
         return accessTokenValueNew;
     }
 
-    //返回结果不是json，直接断言200
-    public void execute3(Entity entity, HashMap<String, AssertHandler> assertMap) {
-
-        isMethodExecuted = true;
-        String responseInfo = BaseExecutor.execute(entity);
-        logger.info("@@@@@@@@@@@@@@@" + responseInfo);
-        String info = responseInfo.toString().substring(16, 19);
-        System.out.println(info);
-        int i = Integer.parseInt(info);
-        Assert.assertEquals(i, 200);
-    }
-    //返回结果不是json串，直接断言201
-    public void execute4(Entity entity, HashMap<String, AssertHandler> assertMap) {
-
-        isMethodExecuted = true;
-        String responseInfo = BaseExecutor.execute(entity);
-        logger.info("@@@@@@@@@@@@@@@" + responseInfo);
-        String info = responseInfo.toString().substring(16, 19);
-        System.out.println(info);
-        int i = Integer.parseInt(info);
-        Assert.assertEquals(i, 201);
-
-    }
-
-//    public void execute4(Entity entity, HashMap<String, AssertHandler> assertMap) {
-//
-//        isMethodExecuted = true;
-//        String responseInfo = BaseExecutor.execute(entity);
-//        logger.info("@@@@@@@@@@@@@@@" + responseInfo);
-//        String info = responseInfo.toString().substring(16, 19);
-//        System.out.println(info);
-//        int i = Integer.parseInt(info);
-//        Assert.assertEquals(i, 200);
-//
-//    }
-
     protected void tearDownAfterMethod(ITestResult result, Method method, Object[] parameter) {
         logger.info("Method: " + method.getName() + " 执行完毕");
         if (result.getStatus() == ITestResult.FAILURE) {

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <domain>http://192.168.31.95</domain>
+    <case class="com.xuehai.response.testCase.Yunya.PostPlatformDoctorLogin" name="用户登陆（医生）">
+        <request>
+            <header>
+                <content-type>application/json</content-type>
+                <User-Agent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36</User-Agent>
+            </header>
+            <url>/api/auth/jwt/token</url>
+            <method>post</method>
+            <!--
+                urlParam主要用于url中包含动态参数的，如v1/{user}/login，urlParam设置如user=32732（<K,V>,参数名称一致）
+             -->
+            <urlParam></urlParam>
+            <queryString></queryString>
+
+            <sign></sign>
+        </request>
+        <dataList>
+            <data id="Data" description="正常数据">
+
+                <!-- queryString是指url '?' 后面拼接的查询字段 -->
+                <queryString>
+                    <![CDATA[
+  
+				    ]]>
+                </queryString>
+                <body>
+                    <![CDATA[
+                    {"username":"18229148652","password":"123456"}
+				    ]]>
+                </body>
+                <!--
+                    {
+                        "invokeType":0调用getExpectResult(),1调用execAssertion()
+                        //静态或动态期望结果结构体格式:{"responseCode":200,"responseInfo":{}}
+                        "expectResult":静态期望结果,实际断言过程中优先取静态期望结果,静态期望结果null或空,则取AssertHandler
+                        "action":testcase中HashMap<String, AssertHandler>的key值
+                        "assertType":0全量断言,1部分字段断言,
+                        "assertKey":["sessionId"] 需要断言的字段名称,与json串字段名对应
+                    }
+                 -->
+                <assertion>
+                    {"invokeType":1,"action":"first","assertType":1,"assertKey":["responseCode"]}
+                </assertion>
+            </data>
+        </dataList>
+    </case>
+
+
+
+</xml>

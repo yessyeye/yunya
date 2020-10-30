@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="Report" allow-return-values="true">
+    <parameter name="testCasePath" value="src/test/resources/case_DoctorLogin.xml"/>
+    <parameter name="testCasePath1" value="src/test/resources/case_test.xml"/>
+
+    <listeners>
+
+        <!--<listener class-name="org.uncommons.reportng.HTMLReporter" />-->
+        <!--<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />-->
+
+        <listener class-name="org.testng.reporters.FailedReporter"/>
+        <listener class-name="org.testng.reporters.XMLReporter"/>
+        <!--<listener class-name="xuehai.api.report.ExtentReportsListener"/>-->
+
+    </listeners>
+
+
+    <test name="TestCaseTest" preserve-order="true">
+        <classes>
+
+            <class name="com.xuehai.response.testCase.Yunya.PostPlatformDoctorLogin"/>
+            <class name="com.xuehai.response.testCase.Yunya.PostSystemMenuList"/>
+
+        </classes>
+    </test>
+</suite>
